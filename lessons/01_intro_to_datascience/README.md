@@ -93,7 +93,7 @@ Connection type: SSH
 
 Next, click the "Open" button and enter "vagrant" for both the username and the password.
 
-### Step 5: Install GA Data Science Bundle
+### Step 9: Install GA Data Science Bundle
 
 - Run the following commands:
 
@@ -103,7 +103,7 @@ vagrant@data-science-toolbox:~$ dst add gads
 ```
 (Note that `vagrant@data-science-toolbox:~` indicates that this command should be run on the Data Science Toolbox.)
 
-### Step 6: Set up IPython Notebook
+### Step 10: Set up IPython Notebook
 
 Now that you are logged into your new virtual machine, invoke the following command to create a password-protected profile:
 
