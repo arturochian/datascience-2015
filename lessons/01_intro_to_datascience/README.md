@@ -171,7 +171,9 @@ returns a sublist of `numbers` with only those numbers that are divisible by 33.
 Save the solution as `solution.py` under `exercise_1` and commit and push to GitHub.
 
 
-# Homework: Push all of these to your GitHub
+# Homework
+- Push Labs 4 and 5 to GitHub
+
 ### Lab 4: `exercise_2`
 #### Objective: Exercise those logic skills while building fluency in Python
 Solve https://projecteuler.net/problem=2
