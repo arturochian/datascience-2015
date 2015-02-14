@@ -163,8 +163,7 @@ As we always will do, within `exercise_1`, create a README.md with the following
 My objective in doing this problem is to exercise my logic skills and practice for loops/list comprehensions.
 
 PROBLEM: Write a function that takes a list of numbers `numbers` and
-returns a sublist of `numbers` with only those numbers that are divisible by 33
-or contains 2 as a digit.
+returns a sublist of `numbers` with only those numbers that are divisible by 33.
 ```
 Save the solution as `solution.py` under `exercise_1` and commit and push to GitHub.
 
