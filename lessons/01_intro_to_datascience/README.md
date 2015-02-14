@@ -4,6 +4,9 @@
 - Start coding
 
 # Setting up our development environment
+#### Objective: Create an isolated environment that doesn't affect and isn't affected by our computer.
+**What's the point of a development environment?**
+
 ### Step 1: Download Sublime
 - http://www.sublimetext.com/2
 
