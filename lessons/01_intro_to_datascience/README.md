@@ -155,10 +155,7 @@ Try to run that same file outside of the virtual machine and just from `~/Develo
 0. Sign up for GitHub & add SSH keys: https://help.github.com/articles/generating-ssh-keys/
 1. Create a repository on your GitHub called `dat-chapter-1` (We'll do this together)
 2. Clone that repository within `~/Development/datascience/repos`,
-3. Add a README.md file with the following text:
-```
-Chapter 1 of GA Data Science 2015: Prove proficiency in Python and Pandas.
-```
+3. Add a README.md file with the following text: Chapter 1 of GA Data Science 2015: Prove proficiency in Python and Pandas.
 4. Commit the new file and push it to GitHub.
 
 ### Lab 3: Python starters
