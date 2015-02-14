@@ -19,7 +19,7 @@ This will open your bash profile in Vim. To edit it, type i, then add this line:
 ```
 export subl='open -a /Applications/Sublime\ Text.app/ $1'
 ```
-Then quite the terminal and reopen it and execute the following line:
+Then quit Terminal, reopen it and execute the following line:
 ```
 $ subl
 ```
