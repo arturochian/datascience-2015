@@ -149,11 +149,14 @@ Try to run that same file outside of the virtual machine and just from `~/Develo
 
 ### Lab 2: Git workflow
 #### Objective: Get comfortable with our work flow of solving problems and pushing to GitHub
-Create a directory `~/Development/datascience/repos/dat-chapter-1`, initialize it as a git repository and push it to your own GitHub. Then add a README.md file with the following text:
+0. Sign up for GitHub & add SSH keys: https://help.github.com/articles/generating-ssh-keys/
+1. Create a repository on your GitHub called `dat-chapter-1` (We'll do this together)
+2. Clone that repository within `~/Development/datascience/repos`,
+3. Add a README.md file with the following text:
 ```
 Chapter 1 of GA Data Science 2015: Prove proficiency in Python and Pandas.
 ```
-Then, commit the new file and push it to GitHub.
+4. Commit the new file and push it to GitHub.
 
 ### Lab 3: Python starters
 #### Objective: Warm up our python skills
@@ -176,7 +179,7 @@ Remember to write a nice problem statement and objective in the README.
 
 ### Lab 5: `exercise_3`
 #### Objective: Learn to read data from a csv file and analyze it in pure Python
-Using the `csv` library (https://docs.python.org/2/library/csv.html), read in this [data](https://www.dropbox.com/s/cbffxkqq0ujru58/rock.csv?dl=0) and answer the following 2 questions:
+Using the `csv` library (https://docs.python.org/2/library/csv.html), read in this [data on classic rock songs](https://www.dropbox.com/s/cbffxkqq0ujru58/rock.csv?dl=0) and answer the following 2 questions:
 
 1. How many songs were released in 1981?
 2. What are the top 20 songs by playcount? (Hint: use the built-in sorted() function, documentation here: https://wiki.python.org/moin/HowTo/Sorting)
