@@ -134,7 +134,8 @@ vagrant@data-science-toolbox:~$ sudo ipython notebook --profile=dst
 
 
 # Practice
-### Lab 1: How to edit files on our local machine and run the code on the virtual machine
+### Lab 1: Editing and running code
+#### Objective: Learn to edit files on our local machine and run the code on the virtual machine
 Add a file `test.py` to `~/Development/datascience/repos/` with the following two lines:
 ```
 import pandas
@@ -146,14 +147,16 @@ Try to run that same file outside of the virtual machine and just from `~/Develo
 
 **Why does this happen?**
 
-### Lab 2: How we'll be recording our work and progress through GitHub
+### Lab 2: Git workflow
+#### Objective: Get comfortable with our work flow of solving problems and pushing to GitHub
 Create a directory `~/Development/datascience/repos/dat-chapter-1`, initialize it as a git repository and push it to your own GitHub. Then add a README.md file with the following text:
 ```
 Chapter 1 of GA Data Science 2015: Prove proficiency in Python and Pandas.
 ```
 Then, commit the new file and push it to GitHub.
 
-### Lab 3: Our problem-solving workflow
+### Lab 3: Python starters
+#### Objective: Warm up our python skills
 Create a directory within `dat-chapter-1` called `labs` and within that create a directory called `exercise_1`.
 As we always will do, within `exercise_1`, create a README.md with the following problem statement:
 ```
@@ -166,10 +169,12 @@ Save the solution as `solution.py` under `exercise_1` and commit and push to Git
 
 # Homework: Push all of these to your GitHub
 ### Lab 4: `exercise_2`
+#### Objective: Exercise those logic skills while building fluency in Python
 Solve https://projecteuler.net/problem=2
 Remember to write a nice problem statement and objective in the README.
 
 ### Lab 5: `exercise_3`
+#### Objective: Learn to read data from a csv file and analyze it in pure Python
 Using the `csv` library (https://docs.python.org/2/library/csv.html), read in this [data](https://www.dropbox.com/s/cbffxkqq0ujru58/rock.csv?dl=0) and answer the following 2 questions:
 
 1. How many songs were released in 1981?
@@ -179,6 +184,7 @@ Using the `csv` library (https://docs.python.org/2/library/csv.html), read in th
 If you accidentally have opened it in Excel, delete and redownload.
 
 ### Lab 6: Go through Pandas Tutorial 1
+### Objective: Familiarize ourselves with the basics of Pandas
 Go through the following tutorial on your virtual machine, since it already has pandas installed.
 This way, you'll feel more prepared for the next class, during which we'll delve deep into Pandas and start analyzing data..
 - http://nbviewer.ipython.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/01%20-%20Lesson.ipynb
