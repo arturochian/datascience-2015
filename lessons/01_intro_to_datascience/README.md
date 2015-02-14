@@ -68,7 +68,7 @@ The first line allows to view iPython notebook in our browser when we run the no
 The second line makes it so that we can edit code on our local computer using our favorite editor and have those changes automatically synced to our virtual machine where we will run the code.
 
 Now let's create the machine according to the specifications in the Vagrantfile:
-``
+```
 $ vagrant up
 ```
 
