@@ -193,7 +193,7 @@ Using the `csv` library (https://docs.python.org/2/library/csv.html), read in th
 If you accidentally have opened it in Excel, delete and redownload.
 
 ### Lab 6: Go through Pandas Tutorial 1
-### Objective: Familiarize ourselves with the basics of Pandas
+#### Objective: Familiarize ourselves with the basics of Pandas
 Go through the following tutorial on your virtual machine, since it already has pandas installed.
 This way, you'll feel more prepared for the next class, during which we'll delve deep into Pandas and start analyzing data..
 - http://nbviewer.ipython.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/01%20-%20Lesson.ipynb
