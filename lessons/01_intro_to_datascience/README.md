@@ -23,7 +23,7 @@ Then quit Terminal, reopen it and execute the following line:
 ```
 $ subl
 ```
-and this should open up Sublime from the command line.
+and this will open up Sublime from the command line.
 ###
 
 ### Step 3: Create two folders under Development
