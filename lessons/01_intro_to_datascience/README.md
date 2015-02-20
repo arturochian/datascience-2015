@@ -17,7 +17,7 @@ $ vi ~/.bash_profile
 ```
 This will open your bash profile in Vim. To edit it, type i, then add this line:
 ```
-export subl='open -a /Applications/Sublime\ Text.app/ $1'
+alias subl='open -a /Applications/Sublime\ Text \2.app/ $1'
 ```
 Then quit Terminal, reopen it and execute the following line:
 ```
@@ -63,7 +63,7 @@ Open it in Sublime and add these two lines to it near line 22
 
 ```
 config.vm.network "forwarded_port", guest: 8888, host: 8888
-config.vm.synced_folder "../datascience/repos", "/repos"
+config.vm.synced_folder "../repos", "/repos"
 ```
 
 The first line allows to view iPython notebook in our browser when we run the notebook from the virtual machine.
@@ -105,35 +105,6 @@ vagrant@data-science-toolbox:~$ dst update
 vagrant@data-science-toolbox:~$ dst add gads
 ```
 (Note that `vagrant@data-science-toolbox:~` indicates that this command should be run on the Data Science Toolbox.)
-
-### Step 10: Set up IPython Notebook
-
-Now that you are logged into your new virtual machine, invoke the following command to create a password-protected profile:
-
-```
-vagrant@data-science-toolbox:~$ dst setup base
-```
-
-Next, `$ exit` out of the virtual machine and use your favorite text editor to open up the `Vagrantfile` in the `MyDataScienceToolbox` directory. Uncomment and edit the line somewhere around line 22 to the following:
-
-```
-config.vm.network "forwarded_port", guest: 8888, host: 8888
-```
-
-This line instructs Vagrant to open up port 8888 so that the IPython Notebook server is accessible from your browser. Restart the Data Science Toolbox and log in again so that the changes take effect:
-
-```
-$ vagrant reload
-$ vagrant ssh
-```
-
-To start the IPython Notebook server, run:
-
-```sh
-vagrant@data-science-toolbox:~$ sudo ipython notebook --profile=dst
-```
-
-- You can now access the IPython Notebook server at https://localhost:8888. Because the SSL certificate is self-signed, you may get a warning message from your browser. The image below shows how Chrome complains about this. Because you know what's on the server-side, you can just click on the "Proceed anyway" button.
 
 
 # Practice
