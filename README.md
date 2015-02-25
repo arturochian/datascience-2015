@@ -27,5 +27,6 @@ May 06        | Final Presentations (Part 2)
 
 If there is something you would like to see that is not on the syllabus, please Slack me!
 
-# Instructor
-Suneel Chakravorty
+# Instructional Team
+Instructor: Suneel Chakravorty
+TA: Sonia Mehta
