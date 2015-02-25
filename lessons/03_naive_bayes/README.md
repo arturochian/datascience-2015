@@ -1,3 +1,30 @@
+# Example of Naive Bayes
+## Lab: Our First Naive Bayes Classifier
+### Objective: Learn how to use the nltk library's NaiveBayesClassifier and experiment with features to improve the accuracy of the classifier.
+We will create a Twitter Sentiment Analysis Classifier.
+
+## Download the Data
+1. Download the data from here:
+2. Create a directory under your local machine's (not vagrant) /repos/ folder called /datasets/
+3. Move the `clean_twitter_data.csv` file to /datasets/
+
+## SSH into the Vagrant Machine
+1. Once in, run `sudo pip install nltk`
+2. Then boot up ipython notebook: `sudo ipython notebook --profile=dst` and open up the notebook in Chome.
+
+## Run This Code
+Paste this code into notebook:
+
+```python
+import nltk
+...
+```
+## Accuracy Contest
+- Separate in to groups of 2 or 3.
+- Experiment with the feature set.
+- With a training set of 20% of the shuffled data, test set of 80% of the shuffled data, compete to get the highest accuracy classifier.
+
+
 # Homework
 ## Lab: SMS Spam Detection Classifier
 ### Objective: Create a Naive Bayes Classifier that accurately classifies SMSs as spam vs ham
