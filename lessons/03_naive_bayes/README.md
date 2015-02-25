@@ -32,6 +32,8 @@ import csv
 import nltk
 # built-in python library for utility functions that introduce randomness
 import random
+# built-in python library for measuring time-related things
+import time
 
 
 def get_length_bucket(tweet_length):
@@ -102,10 +104,10 @@ def get_feature_sets():
     # now let's generate the output that we specified in the comments above
     output_data = []
 
-    # let's just run it on 10,000 rows first, instead of all 1.5 million rows
+    # let's just run it on 100,000 rows first, instead of all 1.5 million rows
     # when you experiment with the `twitter_features` function to improve accuracy
     # feel free to get rid of the row limit and just run it on the whole set
-    for row in rows[:10000]:
+    for row in rows[:100000]:
         # Remember that row[0] is the label, either 0 or 1
         # and row[1] is the tweet body
 
@@ -154,7 +156,7 @@ def run_classification(training_set, validation_set):
     # let's see how accurate it was
     accuracy = nltk.classify.accuracy(classifier, validation_set)
     print "The accuracy was.... {}".format(accuracy)
-
+    return classifier
 
 def predict(classifier, new_tweet):
     """
@@ -165,12 +167,20 @@ def predict(classifier, new_tweet):
 
 
 # Now let's use the above functions to run our program
+start_time = time.time()
+
 print "Let's use Naive Bayes!"
+
 our_feature_sets = get_feature_sets()
-print "Size of our data set: {}".format(len(our_feature_sets))
 our_training_set, our_validation_set = get_training_and_validation_sets(our_feature_sets)
+print "Size of our data set: {}".format(len(our_feature_sets))
+
 print "Now training the classifier and testing the accuracy..."
-run_classification(our_training_set, our_validation_set)
+classifier = run_classification(our_training_set, our_validation_set)
+
+end_time = time.time()
+completion_time = end_time - start_time
+print "It took {} seconds to run the algorithm".format(completion_time)
 ```
 
 ## Accuracy Contest
