@@ -1,10 +1,20 @@
+# Overview
+## Objective: Learn the underpinning and intuition behind Naive Bayes Classifier and apply the classifier to some real problems.
+
+# Slides
+- This time, there were just a few. Most of our learning was through the worksheets and whiteboarding. Regardless, here are the slides: https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/slides/naive_bayes_slides.pdf
+
+# Worksheets
+- [Worksheet 1: Univariate Conditional Probability on Tweets](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/Worksheet_1_conditional_probability_univariate.pdf)
+- [Worksheet 2: Multivariate Conditional Probability on Tweets](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/Worksheet_2_conditional_probability_multivariate.pdf)
+
 # Example of Naive Bayes
 ## Lab: Our First Naive Bayes Classifier
 ### Objective: Learn how to use the nltk library's NaiveBayesClassifier and experiment with features to improve the accuracy of the classifier.
 We will create a Twitter Sentiment Analysis Classifier.
 
 ## Download the Data
-1. Download the data from here:
+1. Download the data from here: https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/clean_twitter_data.csv
 2. Create a directory under your local machine's (not vagrant) /repos/ folder called /datasets/
 3. Move the `clean_twitter_data.csv` file to /datasets/
 
