@@ -152,6 +152,15 @@ def run_classification(training_set, validation_set):
     accuracy = nltk.classify.accuracy(classifier, validation_set)
     print "The accuracy was.... {}".format(accuracy)
 
+
+def predict(classifier, new_tweet):
+    """
+    Given a trained classifier and a fresh data point (a tweet),
+    this will predict its label, either 0 or 1.
+    """
+    return classifier.classify(twitter_features(new_tweet))
+
+
 # Now let's use the above functions to run our program
 print "Let's use Naive Bayes!"
 our_feature_sets = get_feature_sets()
