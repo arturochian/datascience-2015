@@ -11,7 +11,7 @@ Mar 11        | Artificial Neural Networks (Part 1)
 Mar 16        | Artificial Neural Networks (Part 2)
 Mar 18        | Decision Trees
 Mar 23        | Ensemble Techniques: Random Forests
-Mar 25        | Feature Extraction
+Mar 25        | Feature Extraction Techniques
 Mar 30        | K-means Clustering
 Apr 01        | Guest lectures from specialists in industry
 Apr 06        | Spark DB + Hadoop in practice (Part 1)
