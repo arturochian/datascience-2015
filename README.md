@@ -26,3 +26,6 @@ May 04        | Final Presentations (Part 1)
 May 06        | Final Presentations (Part 2)
 
 If there is something you would like to see that is not on the syllabus, please Slack me!
+
+# Instructor
+Suneel Chakravorty
