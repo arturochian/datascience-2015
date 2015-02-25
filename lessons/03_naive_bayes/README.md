@@ -42,7 +42,7 @@ def get_length_bucket(tweet_length):
     """
     if tweet_length < 20:
         return short
-    elif tweet_length < 80:
+    elif tweet_length < 70:
         return "medium"
     else:
         return "long"
