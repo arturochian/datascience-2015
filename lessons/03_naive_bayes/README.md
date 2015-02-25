@@ -1,5 +1,5 @@
-# Overview
-## Objective: Learn the underpinning and intuition behind Naive Bayes Classifier and apply the classifier to some real problems.
+# Objective
+Students will be able to define, derive and apply the Naive Bayes Classifier.
 
 # Slides
 - This time, there were just a few. Most of our learning was through the worksheets and whiteboarding. Regardless, here are the slides: https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/slides/naive_bayes_slides.pdf
