@@ -9,7 +9,7 @@
 - [Worksheet 2: Multivariate Conditional Probability on Tweets](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/Worksheet_2_conditional_probability_multivariate.pdf)
 
 # Example of Naive Bayes
-## Lab: Our First Naive Bayes Classifier
+## Lab 1: Our First Naive Bayes Classifier
 ### Objective: Learn how to use the nltk library's NaiveBayesClassifier and experiment with features to improve the accuracy of the classifier.
 We will create a Twitter Sentiment Analysis Classifier.
 
@@ -36,7 +36,7 @@ import nltk
 
 
 # Homework
-## Lab: SMS Spam Detection Classifier
+## Lab 2: SMS Spam Detection Classifier
 ### Objective: Create a Naive Bayes Classifier that accurately classifies SMSs as spam vs ham
 Create a new repo called `supervised-learning-algos`. Within this repo, add a top-level README of something to the effect of:
 ```
