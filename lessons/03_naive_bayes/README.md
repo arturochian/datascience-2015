@@ -27,7 +27,6 @@ Under `naive-bayes` create a README.md with the description of this SMS spam det
 - [Simple Linear Regression (8min)](https://www.youtube.com/watch?v=KsVBBJRb9TE)
 - [Least Squares Minimization (7min)](https://www.youtube.com/watch?v=coQAAN4eY5s)
 - [Multivariate Regression (20min)](https://www.youtube.com/watch?v=dQNpSa-bq4M)
-- []()
 - [Explanation of R^2 test](http://blog.minitab.com/blog/adventures-in-statistics/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit)
 
 ## Logistic Regression (Preview)
