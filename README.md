@@ -1,7 +1,7 @@
 # Syllabus
 Class         | Topics To Be Covered
 ------------- |:---------------------
-Feb 18        | Setup Development Environment
+Feb 18        | Set Up Development Environment
 Feb 23        | Linear Regression and Naive Bayes Classifier
 Feb 25        | Logistic Regression, review of Linear Regression
 Mar 02        | K-nearest neighbors classifier
