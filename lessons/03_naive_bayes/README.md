@@ -118,6 +118,8 @@ def get_feature_sets():
         # add the tuple of feature_dict, label to output_data
         data = (feature_dict, label)
         output_data.append(data)
+
+    # close the file
     f.close()
     return output_data
 
