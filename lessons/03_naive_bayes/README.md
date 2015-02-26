@@ -41,8 +41,8 @@ def get_length_bucket(tweet_length):
     buckets the tweet length into either short / medium / long
     """
     if tweet_length < 20:
-        return short
-    elif tweet_length < 70:
+        return "short"
+    elif tweet_length < 80:
         return "medium"
     else:
         return "long"
@@ -65,7 +65,7 @@ def twitter_features(tweet):
     }
     """
     return {
-        "length": get_length_bucket(tweet)
+        "length": get_length_bucket(len(tweet))
     }
 
 
