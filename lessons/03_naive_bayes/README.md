@@ -65,7 +65,8 @@ def twitter_features(tweet):
     }
     """
     return {
-        "length": get_length_bucket(len(tweet))
+        "length": get_length_bucket(len(tweet)),
+        "contains_exclamation": "!" in tweet,
     }
 
 
