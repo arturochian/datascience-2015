@@ -1,4 +1,4 @@
-# Objective
+# Objectives
 Students will be able to
 - Define and apply linear regression and logistic regression
 - Show how and when to use these techniques
