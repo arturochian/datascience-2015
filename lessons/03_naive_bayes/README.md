@@ -187,9 +187,9 @@ print "It took {} seconds to run the algorithm".format(completion_time)
 This is a continuation of the code above, so please paste it directly below that code in your iPython notebook.
 
 ```python
-# show the 20 most informative (meaningful) features in the model
+# show the most informative (meaningful) features in the model, defaulting to showing the top 100.
 # I explain below how to read these results
-classifier.show_most_informative_features(20)
+classifier.show_most_informative_features()
 
 # This listing of most informative features thats get printed out looks like this:
 #
