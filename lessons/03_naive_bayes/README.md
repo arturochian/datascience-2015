@@ -182,6 +182,17 @@ classifier = run_classification(our_training_set, our_validation_set)
 end_time = time.time()
 completion_time = end_time - start_time
 print "It took {} seconds to run the algorithm".format(completion_time)
+
+# show the 20 most informative (meaningful) features in the model
+# I explain below how to read these results
+classifier.show_most_informative_features(20)
+
+# This listing of most informative features thats get printed out shows that
+# in the training set that the tweets that contain an '!' are positive 1.4 times more
+# often than they they negative.
+# Similarly, the 'short' tweets are negative 1.2 times more often than they are positive.
+# A really good, informative feature is one that appears way more often in the set of positive tweets
+# than in the negative tweets or vice versa
 ```
 
 ## Accuracy Contest
