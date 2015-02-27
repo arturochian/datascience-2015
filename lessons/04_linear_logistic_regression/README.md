@@ -112,7 +112,7 @@ ax.scatter(input_data[:, 1], input_data[:, 2], target)
 # Run through our input data and see what our model would output
 predictions = results.predict(input_data)
 
-# To do the surface plot, I followed this tutorial: http://matplotlib.org/examples/mplot3d/surface3d_demo.html
+# To do the surface plot, follow this tutorial: http://matplotlib.org/examples/mplot3d/surface3d_demo.html
 X, Y = np.meshgrid(input_data[:, 1], input_data[:, 2])
 surface = ax.plot_surface(X, Y, predictions, color='yellow')
 
