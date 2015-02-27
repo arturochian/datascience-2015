@@ -23,17 +23,14 @@ Students will be able to
 - The algorithm tries to find the the line or curve that minimizes the square of the distances between the data and the line.
 - This is called the *least squares* method. There are many different kinds but we'll focus on Ordinary Least Squares (OLS).
 
-## When does it work best?
-### Assumptions
+## Assumptions of the Model
 - Our input variables are not riddled with measurement errors
 - Input variables are not highly correlated
 - How do we measure correlation?
 
-### What are some pitfalls to look out for?
-### How do I know it's working
-
+## What are some things  to look out for?
+## How do I know it's working
 ## How do I use it?
-### Code
 
 
 # Logistic Regression
