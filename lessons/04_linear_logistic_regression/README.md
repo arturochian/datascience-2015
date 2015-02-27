@@ -158,6 +158,7 @@ print "....... ${}".format(predict(6255, 5)[0])
 - Number of visits to the doctor in the previous year
 
 Use the first three columns to predict the number of doctors visits with a linear regression model.
+
 **No need to graph it** since it'd be a 4dimensional plot. *#MindExplodes*
 
 ## Lab 2: Logistic Regression
