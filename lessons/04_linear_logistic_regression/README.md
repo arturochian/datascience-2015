@@ -59,7 +59,7 @@ import numpy as np
 import statsmodels.api as sm
 # our plotting library
 import matplotlib.pyplot as plot
-# we need a 3d plotting utility
+# our 3d plotting utility
 from mpl_toolkits.mplot3d import Axes3D
 
 # open csv file and get the rows
