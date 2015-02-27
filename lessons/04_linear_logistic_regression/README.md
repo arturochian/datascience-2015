@@ -38,6 +38,9 @@ y = a<sub>1</sub>x<sub>1</sub> + ... + a<sub>n</sub>x<sub>n</sub> + b
 ## How do I know it's working
 ## Show me the code
 ## Useful parts of `statsmodel' library
+## Advanced techniques
+- scaling features
+- regularization
 
 # Logistic Regression
 ## What is it?
