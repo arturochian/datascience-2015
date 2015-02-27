@@ -65,7 +65,3 @@ y = a<sub>1</sub>x<sub>1</sub> + ... + a<sub>n</sub>x<sub>n</sub> + b
 # Reading
 - K-nearest neighbors
 - Usefulness of machine learning to industry
-
-# References
-- http://www.cpgtrends.com/2014/07/marketing-modeling-mix-and-linear-regression/
--
