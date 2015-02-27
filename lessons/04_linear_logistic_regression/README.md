@@ -54,9 +54,7 @@ y = a<sub>1</sub>x<sub>1</sub> + ... + a<sub>n</sub>x<sub>n</sub> + b
 6. paste the following code into iPython notebook and run it
 
 ```python
-# our csv-reading-writing library
 import csv
-# our arrays and matrices library
 import numpy as np
 # our regression library
 import statsmodels.api as sm
