@@ -117,7 +117,7 @@ print "\n"
 print "Now let's predict what a 6255 sqft home with 5 bedrooms would cost..."
 print "....... ${}".format(predict(6255, 5)[0])
 ```
-## Useful parts of `statsmodel' library
+
 ## Advanced techniques
 - scaling features
 - regularization
