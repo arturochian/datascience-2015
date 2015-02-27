@@ -1,7 +1,8 @@
 # Objective
-- Define and apply linear and logistic regression
-- Describe when and how to use these techniques
-- Give examples of practical and relevant applications
+Students will be able to
+- Define and apply linear regression and logistic regression
+- Show how and when to use these techniques
+- Give practical and relevant examples from industry
 
 # Linear Regression
 ## What is it?
