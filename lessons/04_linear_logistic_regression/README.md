@@ -11,14 +11,10 @@ Students will be able to
 - Use it to make predictions
 
 ## Simple linear Regression
-```
 y = ax<sub>1</sub> + b
-```
 
 ## Multivariable Regression
-```
 y = a<sub>1</sub>x<sub>1</sub> + ... + a<sub>n</sub>x<sub>n</sub> + b
-```
 
 ## What are some examples?
 - Predicting product revenues based on historical data (e.g. Disney)
