@@ -1,10 +1,7 @@
 # Objective
-- Define linear and logistic regression
-- Give examples of useful and relevant applications in industry
-- Describe when best to use these techniques
-- Write code to use linear regression and extract insights from a dataset
-- Write code to use logistic regression to effectively classify datapoints frmo a dataset.
-
+- Define and apply linear and logistic regression
+- Describe when and how to use these techniques
+- Give examples of practical and relevant applications
 
 # Linear Regression
 ## What is it?
