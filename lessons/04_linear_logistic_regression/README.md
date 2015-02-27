@@ -118,6 +118,10 @@ print "Now let's predict what a 6255 sqft home with 5 bedrooms would cost..."
 print "....... ${}".format(predict(6255, 5)[0])
 ```
 
+## Useful libraries to get familiar with
+- [statsmodels](http://statsmodels.sourceforge.net/)
+- [matplotlib](http://matplotlib.org/)
+
 ## Advanced techniques
 - scaling features
 - regularization
