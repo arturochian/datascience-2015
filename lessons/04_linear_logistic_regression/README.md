@@ -35,8 +35,13 @@ y = a<sub>1</sub>x<sub>1</sub> + ... + a<sub>n</sub>x<sub>n</sub> + b
 - Input variables are not highly correlated
 - How do we measure correlation?
 
-## What are some things  to look out for?
+## What are some things to look out for?
+- Always graph the data. Here is a [basic tutorial on plotting](http://matplotlib.org/users/pyplot_tutorial.html) with `matplotlib`.
+- See how linear regression fails for the Anscombe Quartet.
+
 ## How do I know it's working
+- R<sup>2</sup>
+
 ## Show me the code
 ## Useful parts of `statsmodel' library
 ## Advanced techniques
