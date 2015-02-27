@@ -119,8 +119,8 @@ print "....... ${}".format(predict(6255, 5)[0])
 ```
 
 ## Useful libraries to get familiar with
-- [statsmodels](http://statsmodels.sourceforge.net/)
-- [matplotlib](http://matplotlib.org/)
+- [statsmodels](http://statsmodels.sourceforge.net/): for regressions and other statistical models
+- [matplotlib](http://matplotlib.org/): for plotting
 
 ## Advanced techniques
 - scaling features
