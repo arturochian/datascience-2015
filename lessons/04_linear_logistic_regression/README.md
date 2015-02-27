@@ -82,6 +82,18 @@ rows = rows[1:]
 input_data = np.array([
     [float(row[0]), float(row[1])] for row in rows
 ])
+
+# A intercept is not included by default, so we use `add_constant` to
+# create a column of ones at the beginning to add an intercept
+# This might be confusing so let's walk through it. What adding that
+# column of ones does is it turns
+# y = a + bx_1 into y = ax_0 + bx_1 where x_0 = is always equal to 1 since
+# every row in that column is one
+# even though the equations look different, ax_0 + bx_1 = a(1) + bx_1 = a + bx_1
+# so it's the same
+# The reason we do this is because having an intercept creates a better model.
+input_data = sm.add_constant(input_data)
+
 target = np.array([float(row[2]) for row in rows])
 
 # OLS stands for Ordinary Least Squares, the most common method of linear regression
@@ -94,13 +106,13 @@ print results.summary()
 fig = plot.figure()
 ax = fig.add_subplot(111, projection='3d')
 # first arg is variable_1 (size), then variable_2 (bedroom count), then the target (price)
-ax.scatter(input_data[:, 0], input_data[:, 1], target)
+ax.scatter(input_data[:, 1], input_data[:, 2], target)
 
 # Run through our input data and see what our model would output
 predictions = results.predict(input_data)
 
 # To do the surface plot, I followed this tutorial: http://matplotlib.org/examples/mplot3d/surface3d_demo.html
-X, Y = np.meshgrid(input_data[:, 0], input_data[:, 1])
+X, Y = np.meshgrid(input_data[:, 1], input_data[:, 2])
 surface = ax.plot_surface(X, Y, predictions, color='yellow')
 
 def predict(size, number_of_bedrooms):
@@ -111,7 +123,7 @@ def predict(size, number_of_bedrooms):
     The output of this function is an array, e.g. [252776] which means
     the estimated price is $252,776.
     """
-    return results.predict([size, number_of_bedrooms])
+    return results.predict([1, size, number_of_bedrooms])
 
 print "\n"
 print "Now let's predict what a 6255 sqft home with 5 bedrooms would cost..."
