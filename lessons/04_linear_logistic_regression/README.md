@@ -6,8 +6,11 @@ Students will be able to
 
 # Linear Regression
 ## What is it?
-## What is it useful for?
+- Given a set of data points, fine a line or curve that fits them the best.
+- It is useful for modeling the relationship between N input variables (<sub>1</sub>, ..., x<sub>N</sub>) and some output, called a target, y.
+
 ## What are some examples?
+
 ## How do I use it?
 ### Code
 ### What are some pitfalls to look out for?
