@@ -187,12 +187,22 @@ print "It took {} seconds to run the algorithm".format(completion_time)
 # I explain below how to read these results
 classifier.show_most_informative_features(20)
 
-# This listing of most informative features thats get printed out shows that
-# in the training set that the tweets that contain an '!' are positive 1.4 times more
+# This listing of most informative features thats get printed out looks like this:
+#
+# Most Informative Features
+#    contains_exclamation = True                1 : 0      =      1.4 : 1.0
+#                  length = 'short'             0 : 1      =      1.2 : 1.0
+#    contains_exclamation = False               0 : 1      =      1.1 : 1.0
+#                  length = 'long'              0 : 1      =      1.1 : 1.0
+#                  length = 'medium'            1 : 0      =      1.1 : 1.0
+#
+# which means the following:
+# In the training set, the tweets that contain an '!' are positive 1.4 times more
 # often than they they negative.
 # Similarly, the 'short' tweets are negative 1.2 times more often than they are positive.
 # A really good, informative feature is one that appears way more often in the set of positive tweets
 # than in the negative tweets or vice versa
+# So these features we have so far are not that good!
 ```
 
 ## Accuracy Contest
