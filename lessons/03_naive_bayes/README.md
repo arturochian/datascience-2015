@@ -182,7 +182,11 @@ classifier = run_classification(our_training_set, our_validation_set)
 end_time = time.time()
 completion_time = end_time - start_time
 print "It took {} seconds to run the algorithm".format(completion_time)
+```
+## How to Analyze and Improve Your Model
+This is a continuation of the code above, so please paste it directly below that code in your iPython notebook.
 
+```python
 # show the 20 most informative (meaningful) features in the model
 # I explain below how to read these results
 classifier.show_most_informative_features(20)
