@@ -81,17 +81,21 @@ input_data = np.array([
     [float(row[0]), float(row[1])] for row in rows
 ])
 
-# A intercept is not included by default, so we use `add_constant` to
-# create a column of ones at the beginning to add an intercept
-# This might be confusing so let's walk through it. What adding that
-# column of ones does is it turns
-# y = a + bx_1 into y = ax_0 + bx_1 where x_0 = is always equal to 1 since
-# every row in that column is one
-# even though the equations look different, ax_0 + bx_1 = a(1) + bx_1 = a + bx_1
-# so it's the same
-# The reason we do this is because having an intercept creates a better model.
+# Statsmodels does not use a y-intercept by default
+# That means it's just trying to find y = ax instead of y = b + ax_1
+# We want a y-intercept because it creates a better model.
+# Since we're in 3 dimensions: size, bedroom count, price, technically it's a z-intercept
+# So we'll use add_constant to add a column of 1s at the beginning of input_data
+# so that turns a row like this: (6250, 3) into (1, 6250, 3)
 input_data = sm.add_constant(input_data)
+# The reason behind this is that if I want y = b + ax_1 but I only start with y = ax_1
+# A way to get there is to now bump up to 2-variable linear regression and get this:
+# y = bx_0 + ax_1 (still no intercept)
+# But remember that every row in that first column = 1, so
+# y = bx_0 + ax_1 = b(1) + ax_1 = b + ax_1
+# Voila! We got an intercept of b
 
+# Let's pull out the target data
 target = np.array([float(row[2]) for row in rows])
 
 # OLS stands for Ordinary Least Squares, the most common method of linear regression
