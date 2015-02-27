@@ -39,7 +39,6 @@ y = a<sub>1</sub>x<sub>1</sub> + ... + a<sub>n</sub>x<sub>n</sub> + b
 - Always graph the data. Here is a [basic tutorial on plotting](http://matplotlib.org/users/pyplot_tutorial.html) with `matplotlib`.
 - See how linear regression fails for the Anscombe Quartet.
 - For outliers, use robust linear regression.
-- As for outliers, Cook's Distance and other methods to measure the influence of a data points.
 
 ## How do I know it's working
 - R<sup>2</sup> tells us how well our model fits the data, but doesn't tell us how good our predictions are
