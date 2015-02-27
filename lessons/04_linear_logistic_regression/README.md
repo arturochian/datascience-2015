@@ -28,6 +28,7 @@ y = a<sub>1</sub>x<sub>1</sub> + ... + a<sub>n</sub>x<sub>n</sub> + b
 ## How does it work?
 - The algorithm tries to find the the line or curve that minimizes the square of the distances between the data and the line.
 - This is called the *least squares* method. There are many different kinds but we'll focus on Ordinary Least Squares (OLS).
+- The most common way of minimizing the distances is by way of *gradient descent*.
 
 ## Assumptions of the Model
 - Our input variables are not riddled with measurement errors
