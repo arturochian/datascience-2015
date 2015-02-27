@@ -205,7 +205,8 @@ classifier.show_most_informative_features()
 # often than they they negative.
 # Similarly, the 'short' tweets are negative 1.2 times more often than they are positive.
 # A really good, informative feature is one that appears way more often in the set of positive tweets
-# than in the negative tweets or vice versa
+# than in the negative tweets or vice versa.
+# As a rough guide, consider 2.0: 1.0 or higher to indicate a good feature.
 # So these features we have so far are not that good!
 ```
 
