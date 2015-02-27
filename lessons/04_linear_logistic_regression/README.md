@@ -30,8 +30,8 @@ Students will be able to
 
 ## What are some things  to look out for?
 ## How do I know it's working
-## How do I use it?
-
+## Show me the code
+## Useful parts of `statsmodel' library
 
 # Logistic Regression
 ## What is it?
