@@ -4,6 +4,9 @@ Students will be able to
 - Show how and when to use these techniques
 - Give practical and relevant examples from industry
 
+# Slides
+- [Linear Regression](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/slides/linear_regression_slides.pdf)
+
 # Linear Regression
 ## What is it?
 - Given a set of data points, fine a line or curve that fits them the best.
