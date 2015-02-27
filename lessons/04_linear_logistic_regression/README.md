@@ -45,7 +45,7 @@ y = a<sub>1</sub>x<sub>1</sub> + ... + a<sub>n</sub>x<sub>n</sub> + b
 - Use cross-validation, e.g. training set and test set similar to what we did with Naive Bayes.
 
 ## Set Up for Our Code
-1. download this csv data on housing prices:
+1. download [this csv](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/housing_prices.csv) on housing prices
 2. move that dataset under your /repos/datasets/ directory on your local machine (NOT VAGRANT)
 3. log into vagrant from the /vm/ directory as usual
 4. run `sudo pip install statsmodels`
@@ -151,6 +151,15 @@ print "....... ${}".format(predict(6255, 5)[0])
 
 # Homework
 ## Lab 1: Linear Regression
+[Here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/health_data.csv) is a dataset with the following columns:
+- Age
+- Years spent receiving their education
+- Income divided by 10,000
+- Number of visits to the doctor in the previous year
+
+Use the first three columns to predict the number of doctors visits with a linear regression model.
+**No need to graph it** since it'd be a 4dimensional plot. *#MindExplodes*
+
 ## Lab 2: Logistic Regression
 
 # Reading
