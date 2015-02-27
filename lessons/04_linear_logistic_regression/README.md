@@ -45,7 +45,77 @@ y = a<sub>1</sub>x<sub>1</sub> + ... + a<sub>n</sub>x<sub>n</sub> + b
 - R<sup>2</sup> tells us how well our model fits the data, but doesn't tell us how good our predictions are
 - Use cross-validation, e.g. training set and test set similar to what we did with Naive Bayes.
 
+## Set Up for Our Code
+1. download this csv data on housing prices:
+2. move that dataset under your /repos/datasets/ directory on your local machine (NOT VAGRANT)
+3. log into vagrant from the /vm/ directory as usual
+4. run `sudo pip install statsmodels`
+5. run `sudo ipython notebook --profile=dst`
 ## Show me the code
+```python
+# our csv-reading-writing library
+import csv
+# our arrays and matrices library
+import numpy as np
+# our regression library
+import statsmodels.api as sm
+# our plotting library
+import matplotlib.pyplot as plot
+# we need a 3d plotting utility
+from mpl_toolkits.mplot3d import Axes3D
+
+# open csv file and get the rows
+with open('/home/vagrant/repos/datasets/housing_prices.csv', 'rb') as f:
+    rows = [row for row in csv.reader(f)]
+
+# the first row is the header, which looks like this: SIZE, NUMBER OF BEDROOMS, PRICE
+# let's exclude the header from the data
+header = rows[0]
+
+# each row looks like this
+# 3327.78, 3, 504838
+rows = rows[1:]
+
+# All of the data has been read in as strings, so we need to cast them to floats
+# Let's separate the data into our input data and our target
+input_data = np.array([
+    [float(row[0]), float(row[1])] for row in rows
+])
+target = np.array([float(row[2]) for row in rows])
+
+# OLS stands for Ordinary Least Squares, the most common method of linear regression
+regression_model = sm.OLS(target, input_data)
+results = regression_model.fit()
+# Show us some statistical summary of the model
+print results.summary()
+
+# Now we're ready to plot the data
+fig = plot.figure()
+ax = fig.add_subplot(111, projection='3d')
+# first arg is variable_1 (size), then variable_2 (bedroom count), then the target (price)
+ax.scatter(input_data[:, 0], input_data[:, 1], target)
+
+# Run through our input data and see what our model would output
+predictions = results.predict(input_data)
+
+# To do the surface plot, I followed this tutorial: http://matplotlib.org/examples/mplot3d/surface3d_demo.html
+X, Y = np.meshgrid(input_data[:, 0], input_data[:, 1])
+surface = ax.plot_surface(X, Y, predictions, color='yellow')
+
+def predict(size, number_of_bedrooms):
+    """
+    Given a fresh piece of data (size, number of bedrooms)
+    this will predict the price, based on our trained linear model.
+
+    The output of this function is an array, e.g. [252776] which means
+    the estimated price is $252,776.
+    """
+    return results.predict([size, number_of_bedrooms])
+
+print "\n"
+print "Now let's predict what a 6255 sqft home with 5 bedrooms would cost..."
+print "....... ${}".format(predict(6255, 5)[0])
+```
 ## Useful parts of `statsmodel' library
 ## Advanced techniques
 - scaling features
