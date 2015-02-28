@@ -138,7 +138,7 @@ print "....... ${}".format(predict(6255, 5)[0])
 - [statsmodels](http://statsmodels.sourceforge.net/): for regressions and other statistical models
 - [matplotlib](http://matplotlib.org/): for plotting
 
-## Advanced techniques
+## Advanced techniques for Building Good Models
 - scaling features: makes it easier for gradient descent to converge quickly and train your model
 - regularization: a technique for penalizing an overly complex model with too many dimensions; helps to prevent overfitting
 
