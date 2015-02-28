@@ -144,8 +144,35 @@ print "....... ${}".format(predict(6255, 5)[0])
 
 # Logistic Regression
 ## What is it?
-## What is it useful for?
+- A probabilistic model for classification
+- Usually where dependent variable is binary
+- There is multinomial logistic regression where there may be more than 2 classes, but that is less common and will not be our focus.
+
 ## What are some examples?
+- Predicting whether a patient has a disease based on physiological observations
+- Predicting mortality in injured patients (Trauma and Injury Severity Score)
+- Predicting likelihood of a homeowner defaulting on their mortgage
+- In marketing, predicting the customer's likelihood of purchasing a product or canceling their subscription based on their behavior
+- Predicting whether an American voter will vote Democrat or Republican based on demographic data and historical voting tendencies
+
+## Definition
+The logistic function is a super useful one that is applied in artificial neural networks, biology, ecology, chemistry, ....
+
+It looks like this:
+
+f(t) = 1 / (1 - e<sup>-z</sup>)
+
+It's so useful because it can take any value from -&infin; to +&infin; and smoothly, continuously outputs values between 0 and 1, so we can interpret it naturally as a probability function.
+
+## How this relates to linear regression and our data
+In the above equation, if we let z be our linear regression function:
+
+z = ax<sub>1</sub> + b
+
+Then, we get
+
+f(t) = 1 / (1 -e<sup>ax<sub>1</sub> + b</sup>)
+
 ## How do I use it?
 ### Code
 ### What are some pitfalls to look out for?
