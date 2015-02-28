@@ -147,6 +147,8 @@ print "....... ${}".format(predict(6255, 5)[0])
 - A probabilistic model for classification
 - Usually where dependent variable is binary
 - There is multinomial logistic regression where there may be more than 2 classes, but that is less common and will not be our focus.
+- Nice because it's interpretable, parameters scale linearly with the dimensions, and computationally efficient.
+- It also serves as the foundation for some more sophisticated methods we'll learn down the road like Artificial Neural Networks.
 
 ## What are some examples?
 - Predicting whether a patient has a disease based on physiological observations
@@ -173,9 +175,13 @@ Then, we get
 
 f(t) = 1 / (1 -e<sup>ax<sub>1</sub> + b</sup>)
 
+The intuition behind this is that it's kind of a soft step-function.
+
 ## How do I use it?
 ### Code
-### What are some pitfalls to look out for?
+### What are some things to look out for
+- Shouldn't have too many dimensions, otherwise SVMs, random forests or boosted trees will work better
+
 ### How do I know it's working
 ## Logistic Regression vs Naive Bayes
 
