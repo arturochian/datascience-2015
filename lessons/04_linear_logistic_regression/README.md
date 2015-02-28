@@ -183,6 +183,8 @@ f(t) = 1 / (1 -e<sup>ax<sub>1</sub> + b</sup>)
 The intuition behind this is that it's kind of a soft step-function.
 
 ## Set Up for Our Code
+Our example is taken from [here](http://blog.yhathq.com/posts/logistic-regression-and-python.html).
+
 1. Download [this dataset](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/admission_data.csv)
 2. Move it to /repos/datasets/ on your local machine
 3. Run `sudo ipython notebook --profile=dst` on your VAGRANT machine
@@ -234,6 +236,8 @@ print predict(400, 3.59, 3)
 ## Logistic Regression vs Naive Bayes
 
 # Homework
+Push both of the labs to GitHub in the usual way, the first one under a top-level directory you create called `linear-regression` and the other under a top-level directory you create called `logistic-regression`, with nice README.md files under both regression directories explaining the motivation, objective and learnings. Future visitors of your GitHub was have a nice context and it was serve as documentation for yourself if you ever want to refer back to it.
+
 ## Lab 1: Linear Regression
 [Here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/health_data.csv) is a dataset with the following columns:
 - Age
@@ -246,6 +250,9 @@ Use the first three columns to predict the number of doctors visits with a linea
 **No need to graph it** since it'd be a 4dimensional plot. *#MindExplodes*
 
 ## Lab 2: Logistic Regression
+Use our admission dataset above and follow the rest of the tutorial [here](http://blog.yhathq.com/posts/logistic-regression-and-python.html), with the emphasis on generating the graphs of the logistic model we created and visually check that it makes sense.
+
+As a bonus, train the model on a random 20% of the data and then cross-validate it against the other 80% to see how good the model is. The way to do this is to separate the data into training and validation sets. Then for each target in the validation set, check if the prediction was correct (e.g. if the prediction was >.5 and the answer was 1 for admitted, then it was correct, but if the answer was 0 then it was wrong. Analogous for if the prediction was < .5).
 
 # Reading
 - K-nearest neighbors
