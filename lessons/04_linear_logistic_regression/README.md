@@ -157,6 +157,11 @@ print "....... ${}".format(predict(6255, 5)[0])
 - In marketing, predicting the customer's likelihood of purchasing a product or canceling their subscription based on their behavior
 - Predicting whether an American voter will vote Democrat or Republican based on demographic data and historical voting tendencies
 
+## Illustrative example
+- Actuary modeling probability of death given some data
+- The parameters are interpretable.
+- The parameters are those which maximize the likelihood of observing our data.
+
 ## Definition
 The logistic function is a super useful one that is applied in artificial neural networks, biology, ecology, chemistry, ....
 
