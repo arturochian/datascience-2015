@@ -19,7 +19,7 @@ y = ax<sub>1</sub> + b
 ## Multivariable Regression
 y = a<sub>1</sub>x<sub>1</sub> + ... + a<sub>n</sub>x<sub>n</sub> + b
 
-## What are some examples?
+## What are some applications?
 - Predicting product revenues based on historical data (e.g. Disney)
 - Predicting election outcomes
 - Identifying stock market trends
@@ -150,7 +150,7 @@ print "....... ${}".format(predict(6255, 5)[0])
 - Nice because it's interpretable, parameters scale linearly with the dimensions, and computationally efficient.
 - It also serves as the foundation for some more sophisticated methods we'll learn down the road like Artificial Neural Networks.
 
-## What are some examples?
+## What are some applications?
 - Predicting whether a patient has a disease based on physiological observations
 - Predicting mortality in injured patients (Trauma and Injury Severity Score)
 - Predicting likelihood of a homeowner defaulting on their mortgage
