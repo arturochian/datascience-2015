@@ -182,12 +182,14 @@ f(t) = 1 / (1 -e<sup>ax<sub>1</sub> + b</sup>)
 
 The intuition behind this is that it's kind of a soft step-function.
 
-## How do I use it?
-### Code
-### What are some things to look out for
+## Set Up for Our Code
+
+## What are some things to look out for?
 - Shouldn't have too many dimensions, otherwise SVMs, random forests or boosted trees will work better
 
-### How do I know it's working
+### How do I know it's working?
+- cross-validation
+
 ## Logistic Regression vs Naive Bayes
 
 # Homework
