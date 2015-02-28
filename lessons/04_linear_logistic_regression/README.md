@@ -183,6 +183,47 @@ f(t) = 1 / (1 -e<sup>ax<sub>1</sub> + b</sup>)
 The intuition behind this is that it's kind of a soft step-function.
 
 ## Set Up for Our Code
+1. Download [this dataset](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/admission_data.csv)
+2. Move it to /repos/datasets/ on your local machine
+3. Run `sudo ipython notebook --profile=dst` on your VAGRANT machine
+4. Paste the following code into the notebook and run it:
+
+```python
+import csv
+import numpy as np
+import pandas as pd
+import pylab as pl
+import statsmodels.api as sm
+
+# read and in the data and show summary statistics
+data = pd.read_csv('/home/vagrant/repos/datasets/admission_data.csv')
+print "\n****DESCRIPTION OF THE DATA****"
+print data.describe()
+
+
+# show histogram of the data
+data.hist()
+pl.show()
+
+# this is just pandas notation to get columns 1...n
+# we want to do this because our input variables are in columns 1...n
+# while our target is in column 1 (0=not admitted, 1=admitted)
+training_columns = data.columns[1:]
+logit = sm.Logit(data["admit"], data[training_columns])
+result = logit.fit()
+print result.summary()
+
+def predict(gre, gpa, prestige):
+    """
+    Outputs predicted probability of admission to graduate program
+    given gre, gpa and prestige of the institution where
+    the student did their undergraduate
+    """
+    return result.predict([gre, gpa, prestige])[0]
+
+print "\nPrediction for GRE: 400, GPA: 3.59, and Tier 3 Undergraduate degree is..."
+print predict(400, 3.59, 3)
+```
 
 ## What are some things to look out for?
 - Shouldn't have too many dimensions, otherwise SVMs, random forests or boosted trees will work better
