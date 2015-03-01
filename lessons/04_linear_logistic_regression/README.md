@@ -234,6 +234,8 @@ print predict(400, 3.59, 3)
 - cross-validation
 
 ## Logistic Regression vs Naive Bayes
+- Naive Bayes does not do well when many of the input variables are correlated
+- Logistic regression is totally ok with correlated input variables
 
 # Homework
 Push both of the labs to GitHub in the usual way, the first one under a top-level directory you create called `linear-regression` and the other under a top-level directory you create called `logistic-regression`, with nice README.md files under both regression directories explaining the motivation, objective and learnings. Future visitors of your GitHub was have a nice context and it was serve as documentation for yourself if you ever want to refer back to it.
@@ -257,5 +259,5 @@ Then, train the model on a random 20% of the data and then cross-validate it aga
 The way to do this is to separate the data into training and validation sets. Then for each target in the validation set, check if the prediction was correct (e.g. if the prediction was >.5 and the answer was 1 for admitted, then it was correct, but if the answer was 0 then it was wrong. Analogous for if the prediction was < .5).
 
 # Reading
+- [Logistic regression vs Naive Bayes](http://www.quora.com/What-is-the-difference-between-logistic-regression-and-Naive-Bayes)
 - K-nearest neighbors
-- Usefulness of machine learning to industry
