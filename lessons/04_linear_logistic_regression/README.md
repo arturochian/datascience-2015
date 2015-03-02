@@ -255,6 +255,8 @@ Part 1: Use the first three columns to predict the number of doctors visits with
 
 Part 2: Build a linear model that only takes age and education years as the input; then a linear model that takes just the age and the income. Which model fits the data better? Graph data with both of those regression lines using pylab or matplotlib to visualize the results.
 
+Part 3: Check that the two linear models from Part 2 and the linear model from Part 1 predict different values for the number of visits given some test data. Is the variation in the predictions consistent with your intuition?
+
 ## Lab 2: Logistic Regression
 Use our admission dataset above and follow the rest of the tutorial [here](http://blog.yhathq.com/posts/logistic-regression-and-python.html), with the emphasis on generating the graphs of the logistic model we created and visually check that it makes sense.
 
