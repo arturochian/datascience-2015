@@ -268,4 +268,4 @@ Answer this question: how accurate is the model?
 
 # Reading
 - [Logistic regression vs Naive Bayes](http://www.quora.com/What-is-the-difference-between-logistic-regression-and-Naive-Bayes)
-- K-nearest neighbors
+- [5 min video on K-Nearest Neighbors classifier](https://www.youtube.com/watch?v=UqYde-LULfs)
