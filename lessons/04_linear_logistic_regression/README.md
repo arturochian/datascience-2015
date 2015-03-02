@@ -144,9 +144,10 @@ print "....... ${}".format(predict(6255, 5)[0])
 
 # Logistic Regression
 ## What is it?
+- Not a regression model, despite its name
 - A probabilistic model for classification
 - Usually where dependent variable is binary
-- There is multinomial logistic regression where there may be more than 2 classes, but that is less common and will not be our focus.
+- There is multinomial logistic regression where there may be more than 2 classes, but we'll work with binary for now.
 - Nice because it's interpretable, parameters scale linearly with the dimensions, and computationally efficient.
 - It also serves as the foundation for some more sophisticated methods we'll learn down the road like Artificial Neural Networks.
 
