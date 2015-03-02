@@ -248,9 +248,10 @@ Push both of the labs to GitHub in the usual way, the first one under a top-leve
 - Income divided by 10,000
 - Number of visits to the doctor in the previous year
 
-Use the first three columns to predict the number of doctors visits with a linear regression model.
-
+Part 1: Use the first three columns to predict the number of doctors visits with a linear regression model.
 **No need to graph it** since it'd be a 4dimensional plot. *#MindExplodes*
+
+Part 2: Build a linear model that only takes age and education years as the input; then a linear model that takes just the age and the income. Which model fits the data better? Graph data with both of those regression lines using pylab or matplotlib to visualize the results.
 
 ## Lab 2: Logistic Regression
 Use our admission dataset above and follow the rest of the tutorial [here](http://blog.yhathq.com/posts/logistic-regression-and-python.html), with the emphasis on generating the graphs of the logistic model we created and visually check that it makes sense.
