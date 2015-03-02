@@ -262,6 +262,8 @@ Then, train the model on a random 20% of the data and then cross-validate it aga
 
 The way to do this is to separate the data into training and validation sets. Then for each target in the validation set, check if the prediction was correct (e.g. if the prediction was >.5 and the answer was 1 for admitted, then it was correct, but if the answer was 0 then it was wrong. Analogous for if the prediction was < .5).
 
+Answer this question: how accurate is the model?
+
 # Reading
 - [Logistic regression vs Naive Bayes](http://www.quora.com/What-is-the-difference-between-logistic-regression-and-Naive-Bayes)
 - K-nearest neighbors
