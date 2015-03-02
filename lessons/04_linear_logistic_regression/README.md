@@ -239,7 +239,9 @@ print predict(400, 3.59, 3)
 - Logistic regression is totally ok with correlated input variables
 
 # Homework
-Push both of the labs to GitHub in the usual way, the first one under a top-level directory you create called `linear-regression` and the other under a top-level directory you create called `logistic-regression`, with nice README.md files under both regression directories explaining the motivation, objective and learnings. Future visitors of your GitHub was have a nice context and it was serve as documentation for yourself if you ever want to refer back to it.
+Push both of the labs to GitHub in the usual way, the first one under a top-level directory you create called `linear-regression` and the other under a top-level directory you create called `logistic-regression`, with nice README.md files under both regression directories explaining the motivation, objective and learnings.
+
+Future visitors of your GitHub will have some nice context and it will serve as documentation for yourself if you ever want to refer back to it.
 
 ## Lab 1: Linear Regression
 [Here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/health_data.csv) is a dataset with the following columns:
