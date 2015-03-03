@@ -28,6 +28,8 @@ Students will be able to
 - Use cross-validation
 
 ## Set Up for Our Code
+### Classify wine as high-quality or not based on its attributes
+
 1. download [this csv]()
 2. move that dataset under your /repos/datasets/ directory on your local machine (NOT VAGRANT)
 3. log into vagrant from the /vm/ directory as usual
@@ -35,8 +37,75 @@ Students will be able to
 6. paste the following code into iPython notebook and run it
 
 ```python
-Some code here...
+# ****** First, let's choose which value of K will do the best ******
+import pandas as pd
+import pylab as pl
+from sklearn.neighbors import KNeighborsClassifier
+
+
+df = pd.read_csv("https://s3.amazonaws.com/demo-datasets/wine.csv")
+
+# This creates an array of Trues and False, uniformly distributed such that
+# around 30% of the items will be True and the rest will be False
+test_idx = np.random.uniform(0, 1, len(df)) <= 0.3
+
+# The training set will be ~30% of the data
+train = df[test_idx==True]
+# The test set will be the remaining, ~70% of the data
+test = df[test_idx==False]
+
+features = ['density', 'sulphates', 'residual_sugar']
+
+results = []
+# range(1, 51, 2) = [1, 3, 5, 7, ...., 49]
+for n in range(1, 51, 2):
+    clf = KNeighborsClassifier(n_neighbors=n)
+    # train the classifier
+    clf.fit(train[features], train['high_quality'])
+    # then make the predictions
+    preds = clf.predict(test[features])
+    # very simple and terse line of code that will check the accuracy
+    # documentation on what np.where does: http://docs.scipy.org/doc/numpy/reference/generated/numpy.where.html
+    # Here is a simple example: suppose our predictions where [True, False, True] and the correct values were [True, True, True]
+    # The next line says, create an array where when the prediction = correct value, the value is 1, and if not the value is 0.
+    # So the np.where would, in this example, produce [1, 0, 1] which would be summed to be 2 and then divided by 3.0 to get 66% accuracy
+    accuracy = np.where(preds==test['high_quality'], 1, 0).sum() / float(len(test))
+    print "Neighbors: %d, Accuracy: %3f" % (n, accuracy)
+
+    results.append([n, accuracy])
+
+results = pd.DataFrame(results, columns=["n", "accuracy"])
+
+pl.plot(results.n, results.accuracy)
+pl.title("Accuracy with Increasing K")
+pl.show()
+
+# ****** Now, let's see how accurate the predictor is ******
+results = []
+# let's try two different weighting schemes, one where we don't worry about the distance
+# another where we weight each point by 1/distance
+for w in ['uniform', 'distance']:
+    clf = KNeighborsClassifier(3, weights=w)
+    w = str(w)
+    clf.fit(train[features], train['high_quality'])
+    preds = clf.predict(test[features])
+
+    # For an explanation of this line, refer to my explanation of this same line above
+    accuracy = np.where(preds==test['high_quality'], 1, 0).sum() / float(len(test))
+    print "Weights: %s, Accuracy: %3f" % (w, accuracy)
+
+    results.append([w, accuracy])
+
+results = pd.DataFrame(results, columns=["weight_method", "accuracy"])
+print results
 ```
+
+The above code was taken from [this blog post](http://blog.yhathq.com/posts/classification-using-knn-and-python.html). I merely added some documentation.
+
+### Separate into Groups and Improve the kNN classifier
+- add other features from the data
+- change the value of k
+
 
 ## Advanced techniques for Building Good Models
 - Dimensionality reduction
