@@ -12,6 +12,10 @@ Students will be able to
 - Use it
 
 ## What are some applications?
+- [Financial distress predictions](http://www.academia.edu/4607757/Application_of_K-Nearest_Neighbor_KNN_Approach_for_Predicting_Economic_Events_Theoretical_Background)
+- [Breast cancer diagnosis](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2243774/)
+- Handwriting detection and other computer vision
+- Customer segmentation
 
 ## How does it work?
 - The algorithm tries to find the
@@ -38,6 +42,7 @@ Some code here...
 
 ## Advanced techniques for Building Good Models
 - Dimensionality reduction
+- Weighting
 
 # Homework
 ## Lab 1: kNN vs Logistic
