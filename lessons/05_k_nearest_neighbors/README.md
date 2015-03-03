@@ -113,8 +113,10 @@ The above code was taken from [this blog post](http://blog.yhathq.com/posts/clas
 
 # Homework
 ## Lab 1: kNN vs Logistic
-[Here]() is a dataset with the following columns:
-- column 1: ...
+- [Here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/bank-additional-full.csv) is a dataset on a direct marketing campaign run by a Portuguese bank and the output y is whether or not they subscribed to a term deposit.
+**Note**: the columns are delimited by semicolons rather than commas. I believe pandas is smart enough to deal with this but just be aware.
+
+- [Here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/bank-additional-names.txt) is a description of what each column means.
 
 ### Part 1
 - Apply k-Nearest Neighbors on subsets of the columns and using cross validation see how the accuracy changes.
@@ -128,4 +130,4 @@ The above code was taken from [this blog post](http://blog.yhathq.com/posts/clas
 - Between logistic regression and kNN, which performed better in predicting which customers would sign on for a term deposit?
 
 # Reading
-- [Support Vector Machines]()
+- [Support Vector Machines in laymen's terms](http://www.quora.com/What-does-support-vector-machine-SVM-mean-in-laymans-terms)
