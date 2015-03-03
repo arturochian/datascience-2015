@@ -29,7 +29,6 @@ Students will be able to
 1. download [this csv]()
 2. move that dataset under your /repos/datasets/ directory on your local machine (NOT VAGRANT)
 3. log into vagrant from the /vm/ directory as usual
-4. run `sudo pip install statsmodels`
 5. run `sudo ipython notebook --profile=dst`
 6. paste the following code into iPython notebook and run it
 
