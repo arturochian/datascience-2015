@@ -7,9 +7,7 @@ Students will be able to
 
 # k-Nearest Neighbors (kNN) Classifier
 ## What is it?
-- Given a set of data points,
-- Useful for
-- Use it
+- Given a set of data points that have been classified, when a new data point comes in, associate it with the class that is most heavily represented within the smallest ball that contains k neighbors.
 
 ## What are some applications?
 - [Financial distress predictions](http://www.academia.edu/4607757/Application_of_K-Nearest_Neighbor_KNN_Approach_for_Predicting_Economic_Events_Theoretical_Background)
@@ -19,11 +17,11 @@ Students will be able to
 
 ## How does it work?
 - The algorithm tries to find the
-
-## Assumptions of the Model
+- Usually use the Euclidean distance function
+- How do we select k? k ~ sqrt(n) where n is the number of dimensions.
 
 ## What are some things to look out for?
-- Curse of dimensionality
+- [Curse of dimensionality](http://en.wikipedia.org/wiki/Curse_of_dimensionality)
 - More than 10 dimensions and we need to do dimensionality reduction
 
 ## How do I know it's working
@@ -42,7 +40,7 @@ Some code here...
 
 ## Advanced techniques for Building Good Models
 - Dimensionality reduction
-- Weighting
+- Weighting the votes
 
 # Homework
 ## Lab 1: kNN vs Logistic
