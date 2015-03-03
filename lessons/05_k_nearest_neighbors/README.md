@@ -114,7 +114,7 @@ The above code was taken from [this blog post](http://blog.yhathq.com/posts/clas
 # Homework
 ## Lab 1: kNN vs Logistic
 - [Here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/bank-additional-full.csv) is a dataset on a direct marketing campaign run by a Portuguese bank and the output y is whether or not they subscribed to a term deposit.
-**Note**: the columns are delimited by semicolons rather than commas. I believe pandas is smart enough to deal with this but just be aware.
+**Note**: the columns are delimited by semicolons rather than commas. Just pass `delimiter=';'` as a keyword argument in the call `pandas.read_csv(.....)` when you read the data in.
 
 - [Here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/bank-additional-names.txt) is a description of what each column means.
 
