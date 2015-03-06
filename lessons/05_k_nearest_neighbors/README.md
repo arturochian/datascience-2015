@@ -4,6 +4,9 @@ Students will be able to
 - Give practical and relevant examples from industry
 
 # Worksheets
+- [kNN in One Dimension](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/worksheet_1_kNN.pdf)
+- [kNN in Two Dimensions](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/worksheet_2_kNN.pdf)
+- [kNN with Weighted Voting](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/worksheet_3_kNN.pdf)
 
 # k-Nearest Neighbors (kNN) Classifier
 ## What is it?
