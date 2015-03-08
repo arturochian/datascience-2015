@@ -59,10 +59,6 @@ Feature expansion can help us!
 
 # Feature expansion
 - Enlarge the set of features x<sub>1</sub>, ..., x<sub>n</sub> by adding transformations like x<sub>1</sub><sup>2</sup>, x<sub>1</sub>x<sub>2</sub>, x<sub>1</sub>x<sub>2</sub><sup>2</sup>,... as features.
-
-# How does it work?
-- Maximal Margin Classifier
-- Expand the feature set if we need to project to a higher-dimensional space
 - Kernel trick lets us get the benefits of a higher-dimensional space without the computational complexity
 
 # The Code: Handwritten Digit Recognizer
