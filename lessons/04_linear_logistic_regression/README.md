@@ -237,7 +237,7 @@ for i, row in data[320:].iterrows():
     else:
         count += 1
 print count
-print count / 320.0
+print count / 80.0
 ```
 
 ## What are some things to look out for?
