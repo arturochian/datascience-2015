@@ -101,9 +101,12 @@ vectorize("The sun also rises. Let's go to the movies")
 ```
 
 # The Code: Categorizing news articles using SVM
+Check it out [here](http://nbviewer.ipython.org/gist/suneel0101/bd6f79328ab62b04e27c)
 
 # Homework
-## Lab 1: Try the Newsgroups categorization using Logistic regression and kNN
-- Use the same Pipeline as for SVM
-- They should perform much, much worse than the SVM and Naive Bayes approach
-- Why do you think that is?
+## Lab 1: More SVM for Text Classification
+### Part 1: Try other models
+Run logistic regression, kNN, and Naive Bayes on the Newsgroups categorization, using the same CountVectorizer and Tfidf.  Do they perform better or worse? Why do you think that is?
+### Part 2: Use all categories
+- Run the SVM on all categories of the Newsgroups data set. How does the accuracy do?
+- What happens when we remove the l2 penalty?
