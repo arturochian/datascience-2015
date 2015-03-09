@@ -86,6 +86,7 @@ turn_words_into_indices(bag_of_words_data)
 
 # outputs the following:
 ["also", "football", "games", "John", "likes", "Mary", "movies", "to", "too", "watch"]
+```
 
 Problem 4:
 ```
