@@ -10,7 +10,11 @@ Students will be able to
 - [TFIFD](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/SVMs+Continued/NLP_Worksheet_1.pdf)
 - [Knowledge Summary: Linear Regression thru SVM](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/SVMs+Continued/knowledge_summary_worksheet.pdf)
 
-# NLP
+# NLP Programming Exercises
+We're going to work through these in class, some individually, some in groups and ultimately we'll review them together.
+- For those who are still new to Python, this will serve as practice
+- For those who are more confident in their Python, you, too, will learn some more advanced techniques and how to make your code more elegant and Pythonic.
+
 Problem 0:
 ```python
 Write a function `unpunctuate` that takes a string and removes all punctuation, e.g.
