@@ -3,7 +3,6 @@ Students will be able to
 - Apply SVM to multi-class classification problems
 - Explain the intuition, cost function, and tuning paramters behind linear regression, logistic regression, Naive Bayes classifier, kNN and SVMs as well as a heuristic for deciding which technique to use on the data
 - Explain how we know the model is working or not and some common troubleshooting strategies
-- Explain multicollinearity and indicator variables
 - Apply SVM to text classification
 
 # Worksheets
