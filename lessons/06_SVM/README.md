@@ -62,7 +62,113 @@ Feature expansion can help us!
 - Kernel trick lets us get the benefits of a higher-dimensional space without the computational complexity
 
 # The Code: Handwritten Digit Recognizer
-[Check it out here](http://nbviewer.ipython.org/gist/suneel0101/9b665a2dd71bf60d50da)
+[Check it the iPython notebook here](http://nbviewer.ipython.org/gist/suneel0101/9b665a2dd71bf60d50da)
+
+```python
+import matplotlib.pyplot as plt
+
+from sklearn import datasets
+# our support vector machine classifier!
+from sklearn import svm
+
+# load digits dataset
+digits = datasets.load_digits()
+
+# let's see what this dataset is all about
+print digits.DESCR
+
+# let's see what keys this digits object has
+print digits.keys()
+
+# Let's see what classes we want to put digits into
+print digits.target_names
+
+# Let's pic one and see what it looks like
+first_digit = digits.data[0]
+print first_digit
+
+# But what do all of those columns mean!?!?!
+# Let's go to the whiteboard and find out...
+
+# let's see what the first digit was tagged as
+print digits.target[0]
+
+# now let's see what digits.images[0] is
+# it's just the first_digit array reshaped as an 8 x 8 matrix
+print digits.images[0]
+
+# let's instantiate our Support Vector Classifier
+classifier = svm.SVC(gamma=.0001, C=100)
+
+# how many data points do we have?
+print len(digits.data)
+
+# let's createa  training set of the first 1597 of the 1797 data points
+x_training, y_training = digits.data[:-200], digits.target[:-200]
+
+# now let's train the classifier on the training data
+classifier.fit(x_training, y_training)
+
+print "Prediction {}".format(classifier.predict(digits.data[1600]))
+print digits.target[1600]
+
+# show the image
+plt.imshow(
+    digits.images[1600],
+    cmap=plt.cm.gray_r,
+    interpolation="nearest"
+)
+plt.show()
+
+# Wow!!!! Let's see what the accuracy is
+# Let's go from digits.data[-200] all the way to digits.data[-1]
+correct = 0
+indices = range(-200, 0)
+for i in indices:
+    # if we were correct
+    if classifier.predict(digits.data[i])[0] == digits.target[i]:
+        correct += 1
+accuracy = float(correct) / len(indices)
+
+print "SVC Accuracy: {}".format(accuracy)
+
+# Let's try using kNN
+from sklearn.neighbors import KNeighborsClassifier
+
+knn_clf = KNeighborsClassifier(n_neighbors=25)
+# train the classifier
+knn_clf.fit(x_training, y_training)
+
+# Let's see what the accuracy is
+# Let's go from digits.data[-200] all the way to digits.data[-1]
+correct = 0
+indices = range(-200, 0)
+for i in indices:
+    # if we were correct
+    if knn_clf.predict(digits.data[i])[0] == digits.target[i]:
+        correct += 1
+accuracy = float(correct) / len(indices)
+
+print "kNN Accuracy: {}".format(accuracy)
+
+# Let's try with Logistic Regression
+from sklearn.linear_model import LogisticRegression
+
+log_reg = LogisticRegression()
+log_reg.fit(x_training, y_training)
+
+# Let's see what the accuracy is
+# Let's go from digits.data[-200] all the way to digits.data[-1]
+correct = 0
+indices = range(-200, 0)
+for i in indices:
+    # if we were correct
+    if log_reg.predict(digits.data[i])[0] == digits.target[i]:
+        correct += 1
+accuracy = float(correct) / len(indices)
+
+print "Logistic Regression Accuracy: {}".format(accuracy)
+```
 
 # Homework
 ## Lab 1: Playing around with the handwritten digit recognizer
