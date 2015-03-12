@@ -26,7 +26,7 @@ unpunctuate("Hey there! How's it going?")
 
 Problem 1:
 ```python
-Write a function `get_bag_of_words_for_single_document` that, given any strings (also called documents), e.g. "John also likes to watch football games.", returns its bag of words:
+Write a function `get_bag_of_words_for_single_document` that, given any string (also called document), e.g. "John also likes to watch football games.", returns its bag of words:
 
 get_bag_of_words_for_single_document("John also likes to watch football games.")
 
@@ -54,16 +54,17 @@ get_bag_of_words([
 
 # ouputs the following:
 {
-    "John": 1,
-    "likes": 2,
-    "to": 3,
-    "watch": 4,
-    "movies": 5,
-    "also": 6,
-    "football": 7,
-    "games": 8,
-    "Mary": 9,
-    "too": 10
+    'likes': 3,
+    'watch': 2,
+    'to': 2,
+    'John': 2,
+    'also': 1,
+    'games.': 1,
+    'movies': 1,
+    'too.': 1,
+    'movies.': 1,
+    'football': 1,
+    'Mary': 1
 }
 ```
 
@@ -109,7 +110,7 @@ Check it out [here](http://nbviewer.ipython.org/gist/suneel0101/bd6f79328ab62b04
 
 # Homework
 
-## Lab 1: More SVM for Text Classification
+## Lab 1: More SVM for Text Classification (Postponed to be assigned on Monday Mar 16 and due on Mar 23!!!)
 
 ### Part 1: Try other models
 Run logistic regression, kNN, and Naive Bayes on the Newsgroups categorization, using the same CountVectorizer and Tfidf.  Do they perform better or worse? Why do you think that is?
