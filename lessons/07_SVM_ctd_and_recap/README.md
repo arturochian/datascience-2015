@@ -109,8 +109,11 @@ vectorize("The sun also rises. Let's go to the movies")
 Check it out [here](http://nbviewer.ipython.org/gist/suneel0101/bd6f79328ab62b04e27c)
 
 # Homework
+## Lab 1: (due Mar 18)
+Complete and submit the NLP programming exercises above!
+Do them this weekend!!
 
-## Lab 1: More SVM for Text Classification (Postponed to be assigned on Monday Mar 16 and due on Mar 23!!!)
+## Lab 2: More SVM for Text Classification (Postponed to be assigned on Monday Mar 16 and due on Mar 23!!!)
 
 ### Part 1: Try other models
 Run logistic regression, kNN, and Naive Bayes on the Newsgroups categorization, using the same CountVectorizer and Tfidf.  Do they perform better or worse? Why do you think that is?
