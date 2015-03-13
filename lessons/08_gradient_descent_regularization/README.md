@@ -32,7 +32,7 @@ Run logistic regression, kNN, and Naive Bayes on the Newsgroups categorization, 
 
 ### Part 2: Use all categories
 - Run the SVM on all categories of the Newsgroups data set. How does the accuracy do?
-- What happens when we remove the l2 penalty? Switch it to l1 and see what happens.
+- What happens when we remove the l2 regularization? Switch it to l1 and see what happens.
 
 ## Lab 2: Back to the Twitter data
 - Run the SVM on the [twitter data](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/clean_twitter_data.csv), just with the CountVectorizer and Tfidf. Feel free to add other features if you like.
