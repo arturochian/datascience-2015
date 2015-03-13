@@ -7,8 +7,8 @@ Students will be able to
 
 # Prework
 - [9-minute Review of Derivatives](https://www.khanacademy.org/math/differential-calculus/taking-derivatives/derivative_intro/v/calculus-derivatives-1) - I would suggest doing some practice questions or watching a few more of these videos. You should feel comfortable taking derivatives of polynomials.
-- [5-minute Review of the Chain Rule](https://www.khanacademy.org/math/differential-calculus/taking-derivatives/chain_rule/v/chain-rule-with-triple-composition) - You should feel comfortable differentiating a composition of polynomials.
-- [11-minute Review of Partial Derivatives](https://www.khanacademy.org/math/differential-calculus/taking-derivatives/chain_rule/v/chain-rule-with-triple-composition) - You should be able to take partial derivatives of a multivariate polynomial.
+- [5-minute Review of the Chain Rule](https://www.khanacademy.org/math/differential-calculus/taking-derivatives/chain_rule/v/chain-rule-with-triple-composition) - You should feel comfortable differentiating a composition of polynomials, e.g. take the derivative of (x<sup>3</sup> - 2x<sup>2</sup> + 35x + 2)<sup>2</sup>.
+- [11-minute Review of Partial Derivatives](https://www.khanacademy.org/math/differential-calculus/taking-derivatives/chain_rule/v/chain-rule-with-triple-composition) - You should be able to take partial derivatives of a multivariate polynomial, e.g. partial derivative with respect to y of x<sup>2</sup>y - y + y<sup>2</sup>x<sup>3</sup>.
 
 # Worksheets
 - [Gradient Descent in One Variable](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/Gradient+Descent/GD_worksheet_1.pdf)
