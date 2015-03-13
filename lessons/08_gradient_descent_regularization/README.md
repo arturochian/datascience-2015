@@ -15,7 +15,7 @@ Students will be able to
 - [Gradient Descent for Ordinary Least Squares, Two Variables](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/Gradient+Descent/GD_Worksheet_2.pdf)
 
 # What is gradient descent?
-An algorithm to minimize functions, useful to use because we're always trying to minimize some cost function to fit our data accurately.
+An algorithm to minimize functions, useful to use because we're always trying to minimize some cost function to fit our data accurately. It involves moving in the direction of steepest descent until we hit the minimum.
 
 # What is stochastic gradient descent?
 A more efficient way to find the minimum of a function by randomly sampling the training set and updating our parameters based on the gradient with respect to that single training data point as opposed to the entire set.
