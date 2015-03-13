@@ -21,7 +21,7 @@ An algorithm to minimize functions, useful to use because we're always trying to
 A more efficient way to find the minimum of a function by randomly sampling the training set and updating our parameters based on the gradient with respect to that single training data point as opposed to the entire set.
 
 # What is regularization
-A technique to prevent overfitting
+A technique to prevent overfitting where we reduce the magnitude of the coefficients of our linear equation so that we get a simpler, smoother hypothesis.
 
 # Homework
 This was supposed to be assigned last class but we didn't get to it, so it's being assigned this class.
