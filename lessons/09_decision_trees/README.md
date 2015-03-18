@@ -37,40 +37,51 @@ The classification will be based on four attributes:
 Here's the code:
 ```python
 import pandas as pd
+import numpy as np
 from sklearn import tree
-from sklearn.cross_validation import train_test_split
+from sklearn.cross_validation import cross_val_score
 
 df = pd.read_csv('https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/iris.csv')
 
-print df.describe()
-
-# split the data into 60% test set, 40% training set
-training_set, test_set = train_test_split(df, test_size = 0.6)
-
-# the features are the first 4 columns of the data, with the last column being the target class
-feature_data = training_set[:, :4]
-target_data = training_set[:, 4]
-
-# train the tree
-clf = tree.DecisionTreeClassifier(
+decision_tree_clf = tree.DecisionTreeClassifier(
     # dont split if the max number of samples on either side of the slice is less than 2
     min_samples_leaf=2)
-clf = clf.fit(feature_data, target_data)
+features = ["sepal_length", "sepal_width", "petal_length", "petal_width"]
 
-# prepare the test sets
-test_feature_data = test_set[:, :4]
-test_target_data = test_set[:, 4]
+# use K-fold cross validation, with k=10 and get a list of accuracies
+scores = cross_val_score(decision_tree_clf, df[features], df["target"], cv=5)
 
-# make the predictions
-predictions = clf.predict(test_feature_data)
+print "\nDECISION TREE:\n"
+# print the accuracies
+print scores
+# print the average accuracy
+print scores.mean()
+# print the standard deviation of the scores
+print np.std(scores)
 
-# let's see how accurate it was
-accuracy = np.where(predictions==test_target_data, 1, 0).sum() / float(len(test_target_data))
 
-print accuracy
+# now let's try a bagging example
+bagging_clf = BaggingClassifier(
+    decision_tree_clf,
+    # bag using 20 trees
+    n_estimators=20,
+    # the max number of samples to draw from the training set for each tree
+    # there are 105 training samples, so each tree will have .8 * 105
+    # data points each to train on, chosen randomly with replacement
+    max_samples=0.8,
+)
+
+# use K-fold cross validation, with k=10 and get a list of accuracies
+scores = cross_val_score(bagging_clf, df[features], df["target"], cv=5)
+
+print "\nDECISION TREE WITH BAGGING:\n"
+# print the accuracies
+print scores
+# print the average accuracy
+print scores.mean()
+# print the standard deviation of the scores
+print np.std(scores)
 ```
 
-### Exercise: Try running the code 10 times. Does the accuracy change?
-
 # Homework
-## Lab 1
+# Lab 1
