@@ -84,4 +84,10 @@ print np.std(scores)
 ```
 
 # Homework
-# Lab 1
+# Lab 1: More with Iris Plants
+Using the Iris data set in the code above,
+
+- Use kNN to classify the Irises
+- Use kNN with Bagging to classify the Irises
+
+How did the mean and std deviation of accuracy compare with the Decision Tree and the Bagged Decision Tree?
