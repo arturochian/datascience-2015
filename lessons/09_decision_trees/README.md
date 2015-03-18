@@ -71,7 +71,9 @@ bagging_clf = BaggingClassifier(
     max_samples=0.8,
 )
 
-# use K-fold cross validation, with k=10 and get a list of accuracies
+# use K-fold cross validation, with k=5 and get a list of accuracies
+# this separates the data into training and test set 5 different times for us
+# and finds out the accuracy in each case to get a sense of the average accuracy
 scores = cross_val_score(bagging_clf, df[features], df["target"], cv=5)
 
 print "\nDECISION TREE WITH BAGGING:\n"
