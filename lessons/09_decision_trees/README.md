@@ -93,7 +93,7 @@ Using the Iris data set in the code above,
 - Use kNN with Bagging to classify the Irises. Which value of K yielded the highest accuracy?
 - Use Logistic Regression to classify the Irises.
 
-How did the mean and std deviation of accuracy of kNN, bagged kNN and logistic regression compare with the Decision Tree and the Bagged Decision Tree?
+How did the mean and std deviation of accuracy of kNN, kNN with bagging, and logistic regression compare with the Decision Tree and the Bagged Decision Tree?
 
 # Next Time
 - Random Forests for Breast Cancer Data
