@@ -89,8 +89,8 @@ print np.std(scores)
 # Lab 1: More with Iris Plants
 Using the Iris data set in the code above,
 
-- Use kNN to classify the Irises
-- Use kNN with Bagging to classify the Irises
+- Use kNN to classify the Irises. Which value of K yielded the highest accuracy?
+- Use kNN with Bagging to classify the Irises. Which value of K yielded the highest accuracy?
 
 How did the mean and std deviation of accuracy compare with the Decision Tree and the Bagged Decision Tree?
 
