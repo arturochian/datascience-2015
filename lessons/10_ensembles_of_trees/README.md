@@ -7,6 +7,7 @@ Students will be able to
 # Pre-work
 - [5m answer on Quora on Random Forests in layman's terms](http://qr.ae/QvDfy)
 - [5m worksheet we didn't get to tackle last time](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/Decision+Trees/DT_wksht_4.pdf)
+- 30m reading through the code below
 
 # Worksheets
 - [Tree Regression Cost](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/Trees+Continued/trees_continued_wksht_1.pdf)
