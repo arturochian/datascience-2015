@@ -75,7 +75,7 @@ print "R^2 {}".format(linear_reg.score(X_test, y_test))
 - usually the random subset of axes is of size sqrt(p), where p is the total number axes (a.k.a features)
 - this procedure is the same for classification as it is for regression
 
-# Boosting
+# Boosting Trees
 - another way of taking an average of trees, except unlike bagging and random forests, it's *sequential*
 - in random forests and bagging, we treat all trees alike and take the majority vote or average
 - in boosting, we start with a simple tree that maybe has a lot of error (called a weak learner since it gets a lot of stuff wrong) and we add on trees to it to fit its error
@@ -90,6 +90,9 @@ This is called **gradient boosting* because it is an analogous problem to gradie
 The beauty of this method is that each indivudal f<sub>i</sub> is quite simple and weak in predictive power, but their weighted sum is sophisticated and accurate.
 
 The analog for classification is AdaBoost, but we won't get into the math here because it's quite a bit harder.
+
+# General Techniques
+Bagging and boosting are general techniques that can be used not just on tree classifiers but other classifiers as well.
 
 # Lab 2: Ensemble Classification to Diagnose Breast Cancer
 [Here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/wd_breast_cancer.csv) is the data.
