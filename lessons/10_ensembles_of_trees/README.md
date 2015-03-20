@@ -176,4 +176,4 @@ print "Std Dev: {}".format(np.std(scores))
 1. Save the data to a file and read it in.
 2. Run all of the classifiers we've learned so far on it.
 3. Tune the classifiers to maximize their predictive power.
-4. How high were you able to get each classifier? Which one(s) performed the best?
+4. How accurate were you able to get each classifier? Which one(s) performed the best?
