@@ -27,7 +27,7 @@ Students will be able to
 
 # Measuring Variable Importance
 - In regression, if we have p input features and N slices, we can measure the relative of a feature in 1,...p by comparing the total reduction in RSS across the axes.
-- Similarly in classification, we can measure the total reduction in the Gini impurity(http://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity)  measure.
+- Similarly in classification, we can measure the total reduction in the [Gini impurity](http://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity)  measure.
 
 # Lab 1: Tree Regression
 [Here](http://nbviewer.ipython.org/gist/suneel0101/4dedee4dbeffe0e1bbf8) is the corresponding iPython notebook.
