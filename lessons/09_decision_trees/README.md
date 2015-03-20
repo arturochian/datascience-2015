@@ -12,11 +12,11 @@ Students will be able to
 - [Construct a Decision Tree](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/Decision+Trees/DT_wksht_3.pdf)
 - [Bootstrap Aggregation](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/Decision+Trees/DT_wksht_4.pdf)
 
-# What is a decision tree?
+# What is a classification tree?
 - Decision-making tool that uses a tree-like graph of decisions and consequences
 - It repeatedly segments the data by making slices on a given axis until the data is nicely separated into leaves.
 
-# What are the pros/cons of decision trees?
+# What are the pros/cons of classification trees?
 - Intuitive and simple
 - Translates directly to nice boolean logic (series of nested if/elses)
 - Not as good as the best methods out there, but can be if we use boosting/bagging/random forests to create an ensemble of trees
