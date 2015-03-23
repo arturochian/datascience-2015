@@ -171,10 +171,10 @@ print "Std Dev: {}".format(np.std(scores))
 2. Change the n_estimators for AdaBoost and RandomForest to 5, 10, 20, 50. Which of each is the most accurate?
 3. Find the most important variables according to the RandomForest classifier. Remember that we had to first `fit()` the classifier to a specific training set. Refer to the tree regression code earlier on in this document for an example of how to do so.
 
-# Homework (Lab 3): Census Data
-**Objective**: Predict whether an individual's annual income exceeds $50k based on their census data.
+# Homework (Lab 3): Image Recognition
+**Objective**: Predict what number a certain image is based on 4 attributes extracted from the imgae.
 
-[Here](https://archive.ics.uci.edu/ml/datasets/Census+Income) is the census data.
+[Here](https://archive.ics.uci.edu/ml/datasets/banknote+authentication) is the data.
 
 1. Save the data to a file and read it in.
 2. Run all of the classifiers we've learned so far on it.
