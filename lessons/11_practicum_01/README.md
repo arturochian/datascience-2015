@@ -10,7 +10,7 @@ Students will be able to
 - [15m glance through these tips on working with categorical data](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/preprocessing/feature_encoding.ipynb)
 - [2m read of this answer on multicollinearity](http://stats.stackexchange.com/a/100209)
 - [8m read of these thoughts on multicollinearity](http://blog.minitab.com/blog/adventures-in-statistics/what-are-the-effects-of-multicollinearity-and-when-can-i-ignore-them)
-- [8m read of this asnwer on using Python to detect multicollinearity](http://stackoverflow.com/a/25833792)
+- [8m read of this answer on using Python to detect multicollinearity](http://stackoverflow.com/a/25833792)
 - Read through all of the code below before class.
 
 For resources on the math behind the collinearity detection, you'll need to revisit eigenvalues and eigenvectors. [Here](https://www.khanacademy.org/math/linear-algebra/alternate_bases/eigen_everything/v/linear-algebra-introduction-to-eigenvalues-and-eigenvectors) is a nice 8 minute intro video from Khan academy. We will not be going over this math in class, just how to use numpy to check the collinearity matrix.
