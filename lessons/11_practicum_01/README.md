@@ -18,9 +18,9 @@ For resources on the math behind the collinearity detection, you'll need to revi
 # The Code
 We will be building a classifier to determine whether or not an applicant should be approved for credit. The feature names have been masked to protect the privacy of the individuals' data.
 
-[Notebook 1: Exploration and Attempt 1](http://nbviewer.ipython.org/gist/suneel0101/8819fd96e0b855e1a8f9)
-[Notebook 2: Use LabelEncoder](http://nbviewer.ipython.org/gist/suneel0101/759dc540077273d56742)
-[Notebook 3: Use DictVectorizer](http://nbviewer.ipython.org/gist/suneel0101/b82a31f141a023284063)
+- [Notebook 1: Exploration and Attempt 1](http://nbviewer.ipython.org/gist/suneel0101/8819fd96e0b855e1a8f9)
+- [Notebook 2: Use LabelEncoder](http://nbviewer.ipython.org/gist/suneel0101/759dc540077273d56742)
+- [Notebook 3: Use DictVectorizer](http://nbviewer.ipython.org/gist/suneel0101/b82a31f141a023284063)
 
 # Homework (Lab 1):
 Objective: build a classifier on [this Thyroid Disease data set](https://archive.ics.uci.edu/ml/datasets/Thyroid+Disease)
