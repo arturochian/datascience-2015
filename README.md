@@ -16,9 +16,9 @@ Mar 30        | Dimensionality Reduction
 Apr 01        | Clustering
 Apr 06        | Hidden Markov Models
 Apr 08        | Built-in Buffer
-Apr 13        | Guest lectures from specialists in industry
+Apr 13        | Guest lectures from folks in industry
 Apr 15        | Artificial Neural Networks (Part 1)
 Apr 20        | Artificial Neural Networks (Part 2)
-Apr 22        | Spark DB + Hadoop in practice
+Apr 22        | Spark DB
 May 04        | Final Presentations (Part 1)
 May 06        | Final Presentations (Part 2)
