@@ -15,8 +15,8 @@ Mar 25        | Tree Boosting, Practicum on a Real Dataset
 Mar 30        | Artificial Neural Networks (Part 1)
 Apr 01        | Artificial Neural Networks (Part 2)
 Apr 06        | Spark DB
-Apr 08        | Built-in Buffer
-Apr 13        | Guest lectures from folks in industry
+Apr 08        | Exploratory Analysis (Sonia)
+Apr 13        | Guest lectures
 Apr 15        | Clustering
 Apr 20        | Dimensionality Reduction
 Apr 22        | Hidden Markov Models
