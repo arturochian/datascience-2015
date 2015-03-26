@@ -26,7 +26,8 @@ We will be building a classifier to determine whether or not an applicant should
 - [Notebook 3: Use DictVectorizer](http://nbviewer.ipython.org/gist/suneel0101/4841b4248ad278419db1)
 
 # Homework (Lab 1):
-Objective: build a classifier on [this Thyroid Disease data set](https://archive.ics.uci.edu/ml/datasets/Thyroid+Disease)
+Objective: build a classifier on [Census Info](https://archive.ics.uci.edu/ml/datasets/Census+Income).
+[Here](https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data) is the data.
 
 - Run all of the models on the data.
 - Alter the value of `C` for the SVC (this is calling tuning) and try to improve its accuracy.
