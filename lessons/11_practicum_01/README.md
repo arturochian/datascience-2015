@@ -29,7 +29,7 @@ We will be building a classifier to determine whether or not an applicant should
 Objective: build a classifier on [Census Info](https://archive.ics.uci.edu/ml/datasets/Census+Income).
 [Here](https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data) is the data.
 
-- Run all of the models on the data.
+- Run all of the models on the data using LabelEncoder and then using DictVectorizer.
 - Alter the value of `C` for the SVC (this is calling tuning) and try to improve its accuracy.
 - Alter the value of `n_estimators` for the tree-based classifiers and try to improve the accuracy.
 - Alter the value of `cv` when you run the models. What does this do?
