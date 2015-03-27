@@ -16,6 +16,7 @@ Students will be able to
 - [Computations on the Perceptron](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/ANNs/ANN_wksht1.pdf)
 - [Multi-class Classification using Perceptrons](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/ANNs/ANN_wksht_2.pdf)
 - [Training the Perceptron](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/ANNs/ANN_wksht_3.pdf)
+- [Computations on the Multilayer Perceptron](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/ANNs/ANN_wksht_4.pdf)
 
 # Applications of ANNs
 They are the state of the art when it comes to
