@@ -30,3 +30,8 @@ They are the state of the art when it comes to
 - super powerful and theoretically could learn any function
 - quite hard to train, especially if we do "deep learning"
 - easy to overfit or get stuck in local optima
+
+# Next time
+- How to train a multi-layer perceptron
+- Basics of tuning an artificial neural network
+- Example using the `pybrain` library and a dataset
