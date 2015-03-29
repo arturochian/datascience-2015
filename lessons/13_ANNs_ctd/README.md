@@ -43,15 +43,18 @@ Students will be able to
 # Code Example
 We're going to beat Random Forest with a Deep Belief Network
 
-Download the dataset [here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/train.csv) and place it under your /datascience/repos/datasets/ directory.
+Download the dataset [here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/train.csv) and place it under your `/datascience/repos/datasets/` directory.
 
 [Here's](http://nbviewer.ipython.org/gist/suneel0101/6316c4567c9538f02573) the ipython notebook.
 
 Befoer we open up iPython notebook, we'll need to install two things once on the Vagrant machine:
-```
+
+```python
+
 sudo pip install theano
 sudo pip install nolearn
-```.
+
+```
 
 # Lab 1 (Homework if not finished in class)
 ## Tuning the learning rate
