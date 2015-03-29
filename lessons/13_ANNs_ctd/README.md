@@ -62,11 +62,13 @@ sudo pip install nolearn
 - Run for epochs=5, learn_rates=.05
 - Run for epochs=5, learn_rates=.1
 How does it change?
+
 ## Tuning the decay rate
 Pick the best one from above and now let's tune the decay rtae.
 - Run for learn_rate_decays=.8
 - Run for learn_rate_decays=.5
 - Run for learn_rate_decays=.3
+
 ## Tuning the hidden layer size
 Pick the best from the previous two experiments and now we'll tune the hidden layer size.
 - Instead of 300 hidden units, try 500 hidden units
