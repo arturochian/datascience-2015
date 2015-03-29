@@ -78,3 +78,7 @@ Pick the best from the previous two experiments and now we'll tune the hidden la
 Which one did the best?
 
 It's hard to train these things!
+
+# Further Material If Interested
+- [Intro to RBMs](http://blog.echen.me/2011/07/18/introduction-to-restricted-boltzmann-machines/)
+- [Coursera on NNs by Goeffrey Hinton](https://class.coursera.org/neuralnets-2012-001/lecture)
