@@ -5,8 +5,8 @@ Students will be able to
 - run a deep belief network on the MNIST handwritten digits dataset
 
 # Pre-work
+- [20m awesome TED talk by Jeremy Howard on Deep Learning](http://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn?language=en)
 - [20m Medium Article on Google and Deep Learning, interview with Geoffrey Hinton](https://medium.com/backchannel/google-search-will-be-your-next-brain-5207c26e4523)
-- [20m TED talk by Jeremy Howard on Deep Learning](http://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn?language=en)
 
 # Worksheets
 - [Adding Momentum to Our Training Procedure](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/ANNs_ctd/ANN_ctd_wksht_1.pdf)
