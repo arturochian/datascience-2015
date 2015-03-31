@@ -65,13 +65,13 @@ sudo pip install nolearn
 
 ## Exercise 3: Tuning an SVC:
 1. Run an SVC with `kernel='rbf'` (Radial basis function) and `C=50`
-2. Parameter Tuning: Graph the accuracy of the SVC against the following 5 values of `C`: .01, .1, 1, 10, 50.
+2. Parameter Tuning: Graph the accuracy of the SVC against the following values of the regularization parameter `C`: .001, .01, .1, 1, 10, 50.
 3. Parameter Tuning: Choosing the optimal C from the previous question, run the SVC with kernel='linear'. How does the accuracy change?
 4. Parameter Tuning: Using `kernel='rbf'`, C equal to the optimal C, graph the accuracy of SVC against the following 5 different values of `gamma`: .0001, .001, .01, .1, 1.
 
 ## Exercise 4: Tuning Logistic Regression
 1. Run LogisticRegression on the data.
-2. Parameter Tuning: Graph the accuracy of the Logistic Regression against the following 5 values of `C`: .01, .1, 1, 10, 50.
+2. Parameter Tuning: Graph the accuracy of the Logistic Regression against the following values of `C`: .001, .01, .1, 1, 10, 50.
 3. Parameter Tuning: Choosing the optimal value of `C`, pass in the l1-norm regularization penalty `penalty='l1'` into the instantiation of the LogisticRegression(). How does the accuracy change?
 
 ## Exercise 5: Tuning a Deep Belief Neural Network
