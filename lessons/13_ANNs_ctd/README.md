@@ -45,40 +45,58 @@ Students will be able to
 # Code Example
 We're going to beat Random Forest with a Deep Belief Network
 
-Download the dataset [here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/train.csv) and place it under your `/datascience/repos/datasets/` directory.
-
-[Here's](http://nbviewer.ipython.org/gist/suneel0101/6316c4567c9538f02573) the ipython notebook.
-
-Befoer we open up iPython notebook, we'll need to install two things once on the Vagrant machine:
+## Setup
+Before we open up iPython notebook, we'll need to install two things once on the Vagrant machine:
 
 ```python
 
 sudo pip install theano
 sudo pip install nolearn
-
 ```
 
-# Lab 1 (Homework if not finished in class)
-## Tuning the learning rate
+## Exercise 1: Downloading the Data
+1. Download the dataset [here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/train.csv) and place it under your `/datascience/repos/datasets/` directory.
+2. Read the data into a pandas DataFrame
+3. Segment the data into `feature_data` and `target_data`
+
+## Exercise 2: Tuning a Random Forest
+1. Run Random Forest on it
+2. We notice that it takes a long time to run, so run it just on half of the data. We will be running it on half of the data from now on.
+3. Parameter Tuning: Graph the accuracy of the Random Forest against the following 5 values of `n_estimators`: 5, 20, 100, 1000, 2000.
+
+## Exercise 3: Tuning an SVC:
+1. Run an SVC with `kernel='rbf'` (Radial basis function) and `C=50`
+2. Parameter Tuning: Graph the accuracy of the SVC against the following 5 values of `C`: .01, .1, 1, 10, 50.
+3. Parameter Tuning: Choosing the optimal C from the previous question, run the SVC with kernel='linear'. How does the accuracy change?
+4. Parameter Tuning: Using `kernel='rbf'`, C equal to the optimal C, graph the accuracy of SVC against the following 5 different values of `gamma`: .0001, .001, .01, .1, 1.
+
+## Exercise 4: Tuning Logistic Regression
+1. Run LogisticRegression on the data.
+2. Parameter Tuning: Graph the accuracy of the Logistic Regression against the following 5 values of `C`: .01, .1, 1, 10, 50.
+3. Parameter Tuning: Choosing the optimal value of `C`, pass in the l1-norm regularization penalty `penalty='l1'` into the instantiation of the LogisticRegression(). How does the accuracy change?
+
+## Exercise 5: Tuning a Deep Belief Neural Network
+I'll walk us through an example.
+
+### Tuning the learning rate
 - Run for epochs=5, learn_rates=.01
 - Run for epochs=5, learn_rates=.05
 - Run for epochs=5, learn_rates=.1
 How does it change?
 
-## Tuning the decay rate
+### Tuning the decay rate
 Pick the best one from above and now let's tune the decay rtae.
 - Run for learn_rate_decays=.8
 - Run for learn_rate_decays=.5
 - Run for learn_rate_decays=.3
 
-## Tuning the hidden layer size
+### Tuning the hidden layer size
 Pick the best from the previous two experiments and now we'll tune the hidden layer size.
 - Instead of 300 hidden units, try 500 hidden units
 - Try 100 hidden units
 - Try 10 hidden units
-Which one did the best?
 
-It's hard to train these things!
+[Here's](http://nbviewer.ipython.org/gist/suneel0101/6316c4567c9538f02573) the ipython notebook.
 
 # Further Material If Interested
 - [Intro to RBMs](http://blog.echen.me/2011/07/18/introduction-to-restricted-boltzmann-machines/)
