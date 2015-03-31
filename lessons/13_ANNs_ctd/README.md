@@ -83,8 +83,9 @@ sudo pip install nolearn
 5. Print out the  [`classification_report`](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html).
 
 ## Exercise 6: Tuning a Deep Belief Neural Network
-I'll walk us through an example.
+I'll walk us through an example and show some improvements via tuning.
 
+As an exercise, try the following:
 ### Tuning the learning rate
 - Run for epochs=5, learn_rates=.01
 - Run for epochs=5, learn_rates=.05
@@ -102,6 +103,10 @@ Pick the best from the previous two experiments and now we'll tune the hidden la
 - Instead of 300 hidden units, try 500 hidden units
 - Try 100 hidden units
 - Try 10 hidden units
+
+# Homework (due April 8)
+- Decide on Data set & problem you want to solve for the final project
+- Feel free to reach out to me or Sonia if you have questions about this!
 
 # Further Material If Interested
 - [Intro to RBMs](http://blog.echen.me/2011/07/18/introduction-to-restricted-boltzmann-machines/)
