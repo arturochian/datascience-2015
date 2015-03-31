@@ -39,8 +39,8 @@ Students will be able to
 - Let's check [this](http://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html) out
 - Live demo of state of the art image classification
 
-# Code Example
-We're going to beat Random Forest with a Deep Belief Network
+# Code Example: Handwritten Character Recognition
+We're going to beat Random Forest with a Deep Belief Network.
 
 ## Setup
 Before we open up iPython notebook, we'll need to install two things once on the Vagrant machine:
@@ -63,7 +63,7 @@ sudo pip install nolearn
 3. Parameter Tuning (Tree Depth): Graph the accuracy of the Random Forest against the following values of `max_depth`: 10, 20, 40.
 4. Parameter Tuning (How many features to randomly sample at each node): Holding `n_estimators=100`, `max_depth=20`, now graph the accuracy against the following values of `max_features`: ["auto", "log2", 0.3] (auto means at each node we should consider slices on sqrt(number of features), log2 means we consider log2(number of features) and .3 means we consider .3 * number of features.
 
-## Exercise 3: Tuning an SVC:
+## Exercise 3: Tuning an SVC
 1. Run an SVC with `kernel='rbf'` (Radial basis function) and `C=50`
 2. Parameter Tuning: Graph the accuracy of the SVC against the following values of the regularization parameter `C`: .001, .01, .1, 1, 10, 50.
 3. Parameter Tuning: Choosing the optimal C from the previous question, run the SVC with kernel='linear'. How does the accuracy change?
