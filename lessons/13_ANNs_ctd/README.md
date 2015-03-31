@@ -5,9 +5,7 @@ Students will be able to
 - run a deep belief network on the MNIST handwritten digits dataset
 
 # Pre-work
-- [20m awesome TED talk by Jeremy Howard on Deep Learning](http://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn?language=en)
-- [20m Medium Article on Google and Deep Learning, interview with Geoffrey Hinton](https://medium.com/backchannel/google-search-will-be-your-next-brain-5207c26e4523)
-- [First Chapter of Free Online Neural Network Book](http://neuralnetworksanddeeplearning.com/chap1.html)
+- ~60m Review [these notebooks from the Practicum](https://github.com/suneel0101/datascience-2015/tree/master/lessons/11_practicum_01#the-code)
 
 # Worksheets
 - [Adding Momentum to Our Training Procedure](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/ANNs_ctd/ANN_ctd_wksht_1.pdf)
@@ -61,7 +59,10 @@ sudo pip install nolearn
 ## Exercise 2: Tuning a Random Forest
 1. Run Random Forest on it
 2. We notice that it takes a long time to run, so run it just on half of the data. We will be running it on half of the data from now on.
-3. Parameter Tuning: Graph the accuracy of the Random Forest against the following 5 values of `n_estimators`: 5, 20, 100, 1000, 2000.
+3. Parameter Tuning (Number of Trees): Graph the accuracy of the Random Forest against the foll
+owing 5 values of `n_estimators`: 5, 20, 100, 1000, 2000.
+4. Parameter Tuning (Tree Depth):
+5. Parameter Tuning (How many features to randomly sample at each node):
 
 ## Exercise 3: Tuning an SVC:
 1. Run an SVC with `kernel='rbf'` (Radial basis function) and `C=50`
