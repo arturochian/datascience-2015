@@ -12,7 +12,6 @@ Students will be able to
 # Worksheets
 - [Adding Momentum to Our Training Procedure](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/ANNs_ctd/ANN_ctd_wksht_1.pdf)
 - [Adaptive Learning Rate](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/ANNs_ctd/ANN_ctd_wksht_2.pdf)
-- [Neural Network Artists](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/ANNs_ctd/ANN_ctd_wksht_3.pdf)
 
 # Backpropagation
 - an algorithm for updating the weights in a multilayer perceptron
