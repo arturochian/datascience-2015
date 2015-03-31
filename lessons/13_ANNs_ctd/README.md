@@ -1,8 +1,9 @@
 # Objectives
 Students will be able to
+- confidently tune parameters for the other classifiers we've studied
+- run a deep belief network on the MNIST handwritten digits dataset
 - explain the backpropagation algorithm
 - use momentum and adaptive learning rates to achieve faster convergence
-- run a deep belief network on the MNIST handwritten digits dataset
 
 # Pre-work
 - ~60m Review [these notebooks from the Practicum](https://github.com/suneel0101/datascience-2015/tree/master/lessons/11_practicum_01#the-code)
