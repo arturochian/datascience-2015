@@ -54,27 +54,34 @@ sudo pip install nolearn
 ## Exercise 1: Downloading the Data
 1. Download the dataset [here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/train.csv) and place it under your `/datascience/repos/datasets/` directory.
 2. Read the data into a pandas DataFrame.
-3. Truncate the data by half, otherwise it'll take a while to run our models.
 3. Segment the data into `feature_data` and `target_data`
+4. Using `train_test_split` to segment the data into 30% test set, 70% training set.
+5. We can't use all the data otherwise it'll take too long to train the models, so let's just take the first 1/8th of the data.
 
 ## Exercise 2: Tuning a Random Forest
-1. Using `train_test_split` to segment the data into 30% test set, 70% training set, Run Random Forest on it.
+1. Run Random Forest on the data.
 2. Parameter Tuning (Number of Trees): Graph the accuracy of the Random Forest against the following values of `n_estimators`: 5, 20, 100, 500.
 3. Parameter Tuning (Tree Depth): Graph the accuracy of the Random Forest against the following values of `max_depth`: 10, 20, 40.
 4. Parameter Tuning (How many features to randomly sample at each node): Holding `n_estimators=100`, `max_depth=20`, now graph the accuracy against the following values of `max_features`: ["auto", "log2", 0.3] (auto means at each node we should consider slices on sqrt(number of features), log2 means we consider log2(number of features) and .3 means we consider .3 * number of features.
 
 ## Exercise 3: Tuning an SVC
-1. Run an SVC with `kernel='rbf'` (Radial basis function) and `C=1`. What is `C` again?
-2. Parameter Tuning: Graph the accuracy of the SVC against the following values of the regularization parameter `C`: .001, .01, .1, 1, 10, 50.
-3. Parameter Tuning: Choosing the optimal C from the previous question, run the SVC with kernel='linear'. How does the accuracy change?
-4. Parameter Tuning: Using `kernel='rbf'`, C equal to the optimal C, graph the accuracy of SVC against the following 5 different values of `gamma`: .0001, .001, .01, .1, 1.
+1. Run an SVC on the data with `kernel='rbf'` (Radial basis function) and `C=1`. What is `C` again?
+2. Parameter Tuning: Graph the accuracy against the following values of kernel: ['linear', 'poly', 'sigmoid']. How does the accuracy change?
+3. Parameter Tuning: Graph the accuracy of the SVC against the following values of the regularization parameter `C`: .001, .01, .1
 
 ## Exercise 4: Tuning Logistic Regression
 1. Run LogisticRegression on the data.
 2. Parameter Tuning: Graph the accuracy of the Logistic Regression against the following values of `C`: .001, .01, .1, 1, 10, 50.
-3. Parameter Tuning: Choosing the optimal value of `C`, pass in the l1-norm regularization penalty `penalty='l1'` into the instantiation of the LogisticRegression(). How does the accuracy change?
+3. Parameter Tuning: Choosing the optimal value of `C`, and let's graph the accuracy against our tuning of the regularization penalty, using the following values of penalty: 'l1', 'l2'
 
-## Exercise 5: Tuning a Deep Belief Neural Network
+## Exercise 5: Run Random Forest on Full Dataset
+1. Go through the tuning paramters in exercise 1, but this time for the full dataset.
+2. What is the best choice for `n_estimators`?
+3. What is the best choice for `max_depth`?
+4. What is the best choice for `max_features`?
+5. Print out the  [`classification_report`](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html).
+
+## Exercise 6: Tuning a Deep Belief Neural Network
 I'll walk us through an example.
 
 ### Tuning the learning rate
