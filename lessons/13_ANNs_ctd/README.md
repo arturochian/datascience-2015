@@ -53,16 +53,15 @@ sudo pip install nolearn
 
 ## Exercise 1: Downloading the Data
 1. Download the dataset [here](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/datasets/train.csv) and place it under your `/datascience/repos/datasets/` directory.
-2. Read the data into a pandas DataFrame
+2. Read the data into a pandas DataFrame.
+3. Truncate the data by half, otherwise it'll take a while to run our models.
 3. Segment the data into `feature_data` and `target_data`
 
 ## Exercise 2: Tuning a Random Forest
-1. Run Random Forest on it
-2. We notice that it takes a long time to run, so run it just on half of the data. We will be running it on half of the data from now on.
-3. Parameter Tuning (Number of Trees): Graph the accuracy of the Random Forest against the foll
-owing 5 values of `n_estimators`: 5, 20, 100, 1000, 2000.
-4. Parameter Tuning (Tree Depth):
-5. Parameter Tuning (How many features to randomly sample at each node):
+1. Using `train_test_split` to segment the data into 30% test set, 70% training set, Run Random Forest on it.
+2. Parameter Tuning (Number of Trees): Graph the accuracy of the Random Forest against the following values of `n_estimators`: 5, 20, 100, 500.
+3. Parameter Tuning (Tree Depth): Graph the accuracy of the Random Forest against the following values of `max_depth`: 10, 20, 40.
+4. Parameter Tuning (How many features to randomly sample at each node): Holding `n_estimators=100`, `max_depth=20`, now graph the accuracy against the following values of `max_features`: ["auto", "log2", 0.3] (auto means at each node we should consider slices on sqrt(number of features), log2 means we consider log2(number of features) and .3 means we consider .3 * number of features.
 
 ## Exercise 3: Tuning an SVC:
 1. Run an SVC with `kernel='rbf'` (Radial basis function) and `C=50`
