@@ -6,7 +6,7 @@ Students will be able to
 - use momentum and adaptive learning rates to achieve faster convergence
 
 # Pre-work
-- ~60m Review [these notebooks from the Practicum](https://github.com/suneel0101/datascience-2015/tree/master/lessons/11_practicum_01#the-code)
+- ~45m Review [these notebooks from the Practicum](https://github.com/suneel0101/datascience-2015/tree/master/lessons/11_practicum_01#the-code)
 
 # Worksheets
 - [Adding Momentum to Our Training Procedure](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/worksheets/ANNs_ctd/ANN_ctd_wksht_1.pdf)
