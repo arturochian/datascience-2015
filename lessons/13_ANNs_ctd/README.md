@@ -64,7 +64,7 @@ sudo pip install nolearn
 4. Parameter Tuning (How many features to randomly sample at each node): Holding `n_estimators=100`, `max_depth=20`, now graph the accuracy against the following values of `max_features`: ["auto", "log2", 0.3] (auto means at each node we should consider slices on sqrt(number of features), log2 means we consider log2(number of features) and .3 means we consider .3 * number of features.
 
 ## Exercise 3: Tuning an SVC
-1. Run an SVC with `kernel='rbf'` (Radial basis function) and `C=50`
+1. Run an SVC with `kernel='rbf'` (Radial basis function) and `C=1`. What is `C` again?
 2. Parameter Tuning: Graph the accuracy of the SVC against the following values of the regularization parameter `C`: .001, .01, .1, 1, 10, 50.
 3. Parameter Tuning: Choosing the optimal C from the previous question, run the SVC with kernel='linear'. How does the accuracy change?
 4. Parameter Tuning: Using `kernel='rbf'`, C equal to the optimal C, graph the accuracy of SVC against the following 5 different values of `gamma`: .0001, .001, .01, .1, 1.
