@@ -95,8 +95,6 @@ Pick the best from the previous two experiments and now we'll tune the hidden la
 - Try 100 hidden units
 - Try 10 hidden units
 
-[Here's](http://nbviewer.ipython.org/gist/suneel0101/6316c4567c9538f02573) the ipython notebook.
-
 # Further Material If Interested
 - [Intro to RBMs](http://blog.echen.me/2011/07/18/introduction-to-restricted-boltzmann-machines/)
 - [Coursera on NNs by Goeffrey Hinton](https://class.coursera.org/neuralnets-2012-001/lecture)
