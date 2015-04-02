@@ -104,6 +104,9 @@ Pick the best from the previous two experiments and now we'll tune the hidden la
 - Try 100 hidden units
 - Try 10 hidden units
 
+# Practicum 2 Notebook
+[Here](http://nbviewer.ipython.org/gist/suneel0101/36d4e44b89a8b847dbe5) is the iPython notebook with all the code from the second practicum.
+
 # Homework (due April 8)
 - Decide on Data set & problem you want to solve for the final project
 - Feel free to reach out to me or Sonia if you have questions about this!
