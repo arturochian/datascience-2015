@@ -13,7 +13,7 @@ Students will be able to
 4. Explore the tuning parameters - there are many (epochs, number of hidden inputs in the hidden layer, learning rates, learning rate decay, momentum, etc)
 5. The code exercise below: we will train a neural network
 6. The end-of-section summary exercises below
-7. The datascience decision-making exercise below
+7. The datascience decision-making exercises below
 
 # Pre-Work
 - Review your notes on Naive Bayes, Logistic, kNN, SVM, Trees, Ensembles of Trees, and ANNs.
@@ -108,7 +108,7 @@ We'll be working again with the MNIST set but this time we'll try our hands at t
 8. Can we do multi-class classification?
 9. Can we use ANNs for regression, not just classification?
 
-# Datascience Decision-Making Exercise
+# Datascience Decision-Making Exercises
 You are datascientists now! Given the below datasets, you've got to make moves.
 
 ## Dataset 1
