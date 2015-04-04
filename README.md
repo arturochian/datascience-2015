@@ -20,7 +20,7 @@ Apr 13        | Guest lectures, Intro to SQL
 Apr 15        | Clustering
 Apr 20        | Dimensionality Reduction
 Apr 22        | Hidden Markov Models
-Apr 27        | Machine Vision End-to-End
-Apr 29        | Spark, Hadoop and MapReduce
+Apr 27        | Spark, Hadoop and MapReduce
+Apr 29        | Machine Vision End-to-End
 May 04        | Final Presentations (Part 1)
 May 06        | Final Presentations (Part 2)
