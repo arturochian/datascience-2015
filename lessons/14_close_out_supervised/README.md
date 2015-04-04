@@ -79,6 +79,7 @@ We'll be working again with the MNIST set but this time we'll try our hands at t
 
 ##  Trees & Ensembles of Trees
 0. How does a classification tree separate the data?
+1. What kind of inputs?
 1. What are some problems with single trees?
 2. Why do we use ensembles of trees?
 3. Describe bagging
@@ -88,6 +89,8 @@ We'll be working again with the MNIST set but this time we'll try our hands at t
 7. What are some parameters we can tune?
 8. When should we use trees?
 9. When should we NOT use trees?
+10. Can we use trees for regression, not just classification?
+11. When to use regression trees vs linear regression?
 
 ## ANNs
 0. How do the inputs and the weights play a role in classifying a new sample?
@@ -100,4 +103,6 @@ We'll be working again with the MNIST set but this time we'll try our hands at t
 5. How does the training difficulty compare with the other algorithms?
 6. What are some of the parameters we can tune?
 7. How do we get a probability interpretation?
-8. What is the softmax function used for?
+8. What kind of inputs (continuous or categorical)?
+8. Can we do multi-class classification?
+9. Can we use ANNs for regression, not just classification?
