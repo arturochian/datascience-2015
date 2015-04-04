@@ -2,7 +2,7 @@
 Students will be able to
 - recall the key learnings from the latest practicum
 - explain how single and multi-layer neural networks work
-- list some of the main tuning paramaters in a neural network
+- identify the main tuning parameters in a neural network
 - tune those parameters in the code
 - close out supervised learning
 
