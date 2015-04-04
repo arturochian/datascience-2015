@@ -7,12 +7,12 @@ Students will be able to
 - close out supervised learning
 
 # Programme
-1. Recap practicum
-2. Recap single-layer neural networks
-3. Explain multi-layer neural networks and backpropagation
+1. Reflect briefly on the practicum, lessons learned
+2. Review single-layer neural networks
+3. Cover multi-layer neural networks and backpropagation
 4. Explore the tuning parameters - there are many (epochs, number of hidden inputs in the hidden layer, learning rates, learning rate decay, momentum, etc)
-5. Code exercise: we will train a neural network
-6. Students recap, compare and contrast the supervised methods and put them in context
+5. The code exercise below: we will train a neural network
+6. The end-of-section summary exercises below
 
 # Pre-Work
 - Review your notes on Naive Bayes, Logistic, kNN, SVM, Trees, Ensembles of Trees, and ANNs.
