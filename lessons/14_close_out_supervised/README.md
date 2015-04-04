@@ -13,6 +13,7 @@ Students will be able to
 4. Explore the tuning parameters - there are many (epochs, number of hidden inputs in the hidden layer, learning rates, learning rate decay, momentum, etc)
 5. The code exercise below: we will train a neural network
 6. The end-of-section summary exercises below
+7. The datascience decision-making exercise below
 
 # Pre-Work
 - Review your notes on Naive Bayes, Logistic, kNN, SVM, Trees, Ensembles of Trees, and ANNs.
@@ -106,3 +107,29 @@ We'll be working again with the MNIST set but this time we'll try our hands at t
 8. What kind of inputs (continuous or categorical)?
 8. Can we do multi-class classification?
 9. Can we use ANNs for regression, not just classification?
+
+# Datascience Decision-Making Exercise
+You are datascientists now! Given the below datasets, you've got to make moves.
+
+## Dataset 1
+- We have a set of historical brain scans, each tagged as either Benign or Cancerous.
+- There are ~1,000 features
+- There are 100,000 samples
+- We want to give a patient the probability they have cancer.
+
+What method(s) would you try and why?
+
+## Dataset 2
+- We have a set of legal documents and we need to classify them as either type A, B, C or D.
+- There are ~5,000 words in each document
+- There are 80,000 samples
+
+What method(s) would you try and why?
+
+## Dataset 3
+- We have collected some data for a number of different store fronts and have tagged each storefront as either Successful or Unsuccessful
+- There are 10 features
+- There are ~1000 samples
+- Give a new measurement, we want to place it in eiter the Successful or Unsuccessful bucket and attach a probability to it.
+
+What method(s) would you try and why?
