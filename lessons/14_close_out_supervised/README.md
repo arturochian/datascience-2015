@@ -28,7 +28,7 @@ We'll be working again with the MNIST set but this time we'll try our hands at t
 [Here's](http://nbviewer.ipython.org/gist/suneel0101/8e26f317b5ecc0f012b9) the iPython notebook to get you started. It also contains the instructions for the exercise.
 
 # End-of-Section Summary Exercises and Homework
-## Instructions
+### Instructions
 - We'll separate into groups of 3-4 and go through each of the below sections.
 - The order of the algorithms will be somewhat randomized.
 - One group will present their answers in the front of the class. This group will be selected at random.
