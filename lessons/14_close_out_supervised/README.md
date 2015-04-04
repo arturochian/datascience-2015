@@ -4,7 +4,7 @@ Students will be able to
 - explain how single and multi-layer neural networks work
 - identify the main tuning parameters in a neural network
 - tune those parameters in the code
-- close out supervised learning
+- recap the supervised learning methods and have a decision-making heuristic for which algo to use
 
 # Programme
 1. Reflect briefly on the practicum, lessons learned
