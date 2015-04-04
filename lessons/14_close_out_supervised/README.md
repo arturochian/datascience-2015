@@ -91,6 +91,8 @@ We'll be working again with the MNIST set but this time we'll try our hands at t
 
 ## ANNs
 0. How do the inputs and the weights play a role in classifying a new sample?
+1. What is the equation of the perceptron?
+1. What does logistic function or the threshold function have to do with anything?
 1. How do we train the weights?
 2. How does a multi-layer perceptron work?
 3. When should we use ANNs? What kinds of applications?
