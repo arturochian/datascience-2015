@@ -1,7 +1,7 @@
 # Objectives
 Students will be able to:
 - explain what unsupervised learning is and what it can be used for
-- explain and use K-Means Clustering and Hierarchical Clustering to identify patterns in the data and segment the data into subgroups
+- explain and use K-Means Clustering and Hierarchical Clustering to segment the data into meaningful subgroups
 
 # Oustanding items for me to complete
 - explanation of gap statistic
