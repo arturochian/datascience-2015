@@ -65,7 +65,7 @@ We build a hierarchy in a "bottom-up" fashion.
 2. Identify the two closest clusters and merge them.
 3. Repeat step 2 until all points are in a single cluster.
 
-### Action: Show video illustration from dataschool.io.
+### Action: Draw this procedure in action on the board.
 
 Once we've constructed the tree of clusters from the bottom-up, we can cut it off at a certain height to get the number of clusters we desire. The lower we cut the tree, the more clusters we get.
 
