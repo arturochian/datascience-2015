@@ -117,7 +117,7 @@ For hierarchical clustering,
 - How we measure dissimilarity measure matters
 - What type of linkage we choose matters
 
-# Homework Lab: Clustering on Breast Cancer Data
+# Homework: Clustering on Breast Cancer Data
 [Here's](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Original)
 
 
