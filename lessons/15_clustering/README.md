@@ -5,6 +5,16 @@ Students will be able to:
 - explain and use K-Means Clustering
 - explain and use Hierarchical Clustering
 
+# Programme
+1. What is Unsupervised Learning?
+2. What is clustering?
+3. How does K-means clustering work?
+4. Let's try it out with code and a dataset
+5. How does hierarchical clustering work?
+6. Let's try it out with a dataset
+7. How we evaluate the performance of a cluster
+8. Conclude
+
 # Resources
 - [Lecture on K-Means Clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2)
 - [Lecture on Hierarchical Clustering](https://www.youtube.com/watch?v=Tuuc9Y06tAc&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2)
