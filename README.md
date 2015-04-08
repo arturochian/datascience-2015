@@ -15,8 +15,8 @@ Mar 25        | Tree Boosting, Practicum on a Real Dataset
 Mar 30        | Artificial Neural Networks (Part 1)
 Apr 01        | Practicum 2: Tuning the Models
 Apr 06        | ANN wrap-up, Supervised learning Wrapup
-Apr 08        | Exploratory Analysis (Sonia)
-Apr 13        | Guest lectures, Intro to SQL
+Apr 08        | Exploratory Analysis, SQL and NoSQL (Sonia)
+Apr 13        | Guest lectures
 Apr 15        | Clustering
 Apr 20        | Dimensionality Reduction
 Apr 22        | Hidden Markov Models
