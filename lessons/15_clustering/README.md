@@ -1,12 +1,17 @@
 # Objectives
 Students will be able to:
 - explain what unsupervised learning is and what it can be used for
-- explain and use k-means clustering
-- explain and use hierarchical clustering
+- explain and use K-Means Clustering and Hierarchical Clustering to identify patterns in the data and segment the data into subgroups
+
+# Oustanding items for me to complete
+- explanation of gap statistic
+- datasets for code examples
+- exercises for code examples
+- homework assignment
 
 # Resources
 - [Lecture Videos on Clustering - Chapter 12](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
-- [Tutorial on K-means in Python](https://datasciencelab.wordpress.com/2013/12/12/clustering-with-k-means-in-python/)
+- [Tutorial on K-means in Python](https://datasciencelab.wordpress.com/2013/12/12/clustering-with-k-means-in-python/) - implements the K-means algorithm from scratch in Python, if you're interested in seeing how it works under the hood..
 
 # Unsupervised Learning
 The objective of unsupervised learning is to **identify patterns in the data**.
@@ -53,6 +58,21 @@ Side Note 1: This alternating minimization in steps 2 and 3 is a special case of
 
 Side Note 2: The above algorithm is called Lloyd's algorithm.
 
+## How to choose K
+### Action: Illustrate/explain the Gap statistic.
+For either K-means or hierarchical clustering, how many clusters to choose?
+- No agreed upon answer
+- Not well-solved
+- Usually decide qualitatitvely or set as part of the problem statement (e.g. separate customer base into K since we have K salespeople
+- [Gap statistic](http://web.stanford.edu/~hastie/Papers/gap.pdf)
+- Here is a nice explanation of how to find the K in K-means: [Finding the K in K-means](https://datasciencelab.wordpress.com/2013/12/27/finding-the-k-in-k-means-clustering/)
+
+# Practical Advice for K-Means Clustering
+- Scaling of the data matters
+
+## Coding Exercise: Clustering Crime Data
+[Here's]() the iPython notebook. Exercises are embedded in the notebook.
+
 # Hierarchical Clustering
 Unlike K-means, we do not specify how many clusters we want. In the end, we have a tree-like representation of the data.
 
@@ -81,22 +101,16 @@ Given two clusters A and B, we want to compute the dissimilarity between them, c
 
 Note that above, we will often use Euclidean distance as the measure of dissimilarity. An alternative is correlation-based distance, which is a measure of how correlated the features of two separate observations are.
 
-## Example applications
-### Hierarchical Clustering on Breast Cancer Data
+## Hierarchical Clustering on Breast Cancer Data
+### Action: Let's code.
+[Here's]() the iPython notebook. Exercises are embedded in the notebook.
 
-### K-Means Clustering on Crime Data
-
-# Practical Advice for Clustering
+# Practical Advice for Hierarchical Clustering
 - Scaling of the data matters
 
 For hierarchical clustering,
 - How we measure dissimilarity measure matters
 - What type of linkage we choose matters
-
-For either K-means or hierarchical, How many clusters to choose?
-- No agreed upon answer
-- Not well-solved
-- Usually decide qualitatitvely
 
 # Exercises (to be submitted as Homework)
 
