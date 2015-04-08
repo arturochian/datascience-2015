@@ -5,12 +5,6 @@ Students will be able to:
 - explain and use K-Means Clustering
 - explain and use Hierarchical Clustering
 
-# Oustanding items for me to complete
-- explanation of gap statistic and how to choose number of clusters
-- better explanation of how to evaluate the performance of clustering, using [this](https://en.wikipedia.org/wiki/Cluster_analysis)
-- notebooks and exercises for code examples
-- homework assignment
-
 # Resources
 - [Lecture on K-Means Clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2)
 - [Lecture on Hierarchical Clustering](https://www.youtube.com/watch?v=Tuuc9Y06tAc&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2)
