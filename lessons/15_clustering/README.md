@@ -6,10 +6,10 @@ Students will be able to:
 - explain and use Hierarchical Clustering
 
 # Oustanding items for me to complete
-- explanation of gap statistic
-- better explanation of how to evaluate the performance of clustering
+- explanation of gap statistic and how to choose number of clusters
+- better explanation of how to evaluate the performance of clustering, using [this](https://en.wikipedia.org/wiki/Cluster_analysis)
 - datasets for code examples
-- exercises for code examples
+- notebooks and exercises for code examples
 - homework assignment
 
 # Resources
@@ -70,6 +70,7 @@ For either K-means or hierarchical clustering, how many clusters to choose?
 - Usually decide qualitatitvely or set as part of the problem statement (e.g. separate customer base into K since we have K salespeople
 - [Gap statistic](http://web.stanford.edu/~hastie/Papers/gap.pdf)
 - Here is a nice explanation of how to find the K in K-means: [Finding the K in K-means](https://datasciencelab.wordpress.com/2013/12/27/finding-the-k-in-k-means-clustering/)
+- Article on determining the number of clusters [here](http://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set)
 
 # Practical Advice for K-Means Clustering
 - Scaling of the data matters
