@@ -70,11 +70,7 @@ For either K-means or hierarchical clustering, how many clusters to choose?
 - Scaling of the data matters
 
 ## Coding Exercise: K-Means
-We will code-along with this tutorial: [Clustering US Senators with K-Means](http://blog.dataquest.io/blog/plotting-senators/)
-
-Then we will try our hand at K-Means on this [dataset](http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html).
-
-[Here's]() the iPython notebook. Exercises are embedded in the notebook.
+[Here's](http://nbviewer.ipython.org/gist/suneel0101/2649ee8bdecbf0c42da5) the iPython notebook. Exercises are embedded in the notebook.
 
 # Hierarchical Clustering
 Unlike K-means, we do not specify how many clusters we want. In the end, we have a tree-like representation of the data.
@@ -127,3 +123,4 @@ For hierarchical clustering,
 If you want to explore this topic further, check out these resources:
 - [Document clustering with Scikit learn](http://scikit-learn.org/dev/auto_examples/text/document_clustering.html)
 - [How Cloudera Scaled K-Means](http://blog.cloudera.com/blog/2013/03/cloudera_ml_data_science_tools/)
+- [Clustering US Senators with K-Means](http://blog.dataquest.io/blog/plotting-senators/)
