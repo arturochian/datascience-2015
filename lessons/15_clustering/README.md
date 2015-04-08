@@ -1,10 +1,12 @@
 # Objectives
 Students will be able to:
-- recap and close-out supervised learning
+- explain what unsupervised learning is and what it can be used for
 - explain and use k-means clustering
 - explain and use hierarchical clustering
 
-# Pre-Work
+# Resources
+- [Lecture Videos on Clustering - Chapter 12](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
+- [Tutorial on K-means in Python](https://datasciencelab.wordpress.com/2013/12/12/clustering-with-k-means-in-python/)
 
 # Unsupervised Learning
 The objective of unsupervised learning is to **identify patterns in the data**.
@@ -47,7 +49,9 @@ K-means do this iteratively by the following:
 3. Now that the assignment is fixed, choose the optimal centers for that assignment A.
 4. Repeat 2 and 3 until convergence, a.k.a. the assignments don't change on subsequent iterations.
 
-Side Note: This alternating minimization in steps 2 and 3 is a special case of the Expectation Maximization (EM) algorithm.
+Side Note 1: This alternating minimization in steps 2 and 3 is a special case of the Expectation Maximization (EM) algorithm.
+
+Side Note 2: The above algorithm is called Lloyd's algorithm.
 
 # Hierarchical Clustering
 Unlike K-means, we do not specify how many clusters we want. In the end, we have a tree-like representation of the data.
@@ -89,16 +93,15 @@ For hierarchical clustering,
 - How we measure dissimilarity measure matters
 - What type of linkage we choose matters
 
-For either K-means or hierarchical, How many clusters to choose? See Elements of Statistical Learning Chapter 13 for more details.
+For either K-means or hierarchical, How many clusters to choose?
 - No agreed upon answer
 - Not well-solved
 - Usually decide qualitatitvely
 
 # Exercises (to be submitted as Homework)
 
-# Resources
+# Follow up Materials
+If you want to explore this topic further, check out these resources:
 - [Document clustering with Scikit learn](http://scikit-learn.org/dev/auto_examples/text/document_clustering.html)
 - [How Cloudera Scaled K-Means](http://blog.cloudera.com/blog/2013/03/cloudera_ml_data_science_tools/)
 - [Clustering US Senators with K-Means](http://blog.dataquest.io/blog/plotting-senators/)
-- [Tutorial on K-means](https://datasciencelab.wordpress.com/2013/12/12/clustering-with-k-means-in-python/)
-- [Lecture Videos on Clustering](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
