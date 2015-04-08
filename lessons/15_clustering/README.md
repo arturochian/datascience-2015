@@ -117,6 +117,8 @@ For hierarchical clustering,
 - How we measure dissimilarity measure matters
 - What type of linkage we choose matters
 
+[Thoughts](http://www.stat.cmu.edu/~ryantibs/datamining/lectures/06-clus3.pdf) on how to choose the type of linkage and why determining the number of clusters is hard.
+
 # Homework: Clustering on Breast Cancer Data
 [Here's](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Original)
 
