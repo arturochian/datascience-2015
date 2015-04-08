@@ -14,3 +14,5 @@ Students will be able to:
 - [Building PCA in Python, Step-by-Step](http://sebastianraschka.com/Articles/2014_pca_step_by_step.html)
 - [Lecture Videos on PCA](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
 - [Fundamental Theorem of Linear Algebra for Singular Value Decomposition](http://home.eng.iastate.edu/~julied/classes/CE570/Notes/strangpaper.pdf)
+- [Khan academy on Singular Matrix](https://www.youtube.com/watch?v=UqyN7-tRS00)
+- [Nice, accessible video on Singular Value Decomposition for PCA](https://www.youtube.com/watch?v=BmuRJ5J-cwE)
