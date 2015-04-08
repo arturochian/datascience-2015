@@ -10,8 +10,9 @@ Students will be able to:
 - homework assignment
 
 # Resources
-- [Lecture Videos on Clustering - Chapter 12](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
-- [Tutorial on K-means in Python](https://datasciencelab.wordpress.com/2013/12/12/clustering-with-k-means-in-python/) - implements the K-means algorithm from scratch in Python, if you're interested in seeing how it works under the hood..
+- [Lecture on K-Means Clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2)
+- [Lecture on Hierarchical Clustering](https://www.youtube.com/watch?v=Tuuc9Y06tAc&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2)
+- [Tutorial on K-Means in Python](https://datasciencelab.wordpress.com/2013/12/12/clustering-with-k-means-in-python/) - implements the K-means algorithm from scratch in Python, if you're interested in seeing how it works under the hood..
 
 # Unsupervised Learning
 The objective of unsupervised learning is to **identify patterns in the data**.
@@ -112,7 +113,9 @@ For hierarchical clustering,
 - How we measure dissimilarity measure matters
 - What type of linkage we choose matters
 
-# Exercises (to be submitted as Homework)
+# Homework Lab
+
+
 
 # Follow up Materials
 If you want to explore this topic further, check out these resources:
