@@ -8,7 +8,6 @@ Students will be able to:
 # Oustanding items for me to complete
 - explanation of gap statistic and how to choose number of clusters
 - better explanation of how to evaluate the performance of clustering, using [this](https://en.wikipedia.org/wiki/Cluster_analysis)
-- datasets for code examples
 - notebooks and exercises for code examples
 - homework assignment
 
@@ -16,6 +15,7 @@ Students will be able to:
 - [Lecture on K-Means Clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2)
 - [Lecture on Hierarchical Clustering](https://www.youtube.com/watch?v=Tuuc9Y06tAc&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2)
 - [Tutorial on K-Means in Python](https://datasciencelab.wordpress.com/2013/12/12/clustering-with-k-means-in-python/) - implements the K-means algorithm from scratch in Python, if you're interested in seeing how it works under the hood..
+- [Classification vs Clustering](http://www.quora.com/What-is-the-difference-between-Clustering-and-Classification-in-Machine-Learning)
 
 # Unsupervised Learning
 The objective of unsupervised learning is to **identify patterns in the data**.
@@ -75,7 +75,11 @@ For either K-means or hierarchical clustering, how many clusters to choose?
 # Practical Advice for K-Means Clustering
 - Scaling of the data matters
 
-## Coding Exercise: Clustering Crime Data
+## Coding Exercise: K-Means
+We will code-along with this tutorial: [Clustering US Senators with K-Means](http://blog.dataquest.io/blog/plotting-senators/)
+
+Then we will try our hand at K-Means on this [dataset](http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html).
+
 [Here's]() the iPython notebook. Exercises are embedded in the notebook.
 
 # Hierarchical Clustering
@@ -106,8 +110,10 @@ Given two clusters A and B, we want to compute the dissimilarity between them, c
 
 Note that above, we will often use Euclidean distance as the measure of dissimilarity. An alternative is correlation-based distance, which is a measure of how correlated the features of two separate observations are.
 
-## Hierarchical Clustering on Breast Cancer Data
+## Hierarchical Clustering on Wholesale Customers
 ### Action: Let's code.
+[Here's](https://archive.ics.uci.edu/ml/datasets/Wholesale+customers) the data.
+
 [Here's]() the iPython notebook. Exercises are embedded in the notebook.
 
 # Practical Advice for Hierarchical Clustering
@@ -117,12 +123,11 @@ For hierarchical clustering,
 - How we measure dissimilarity measure matters
 - What type of linkage we choose matters
 
-# Homework Lab
-
+# Homework Lab: Clustering on Breast Cancer Data
+[Here's](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Original)
 
 
 # Follow up Materials
 If you want to explore this topic further, check out these resources:
 - [Document clustering with Scikit learn](http://scikit-learn.org/dev/auto_examples/text/document_clustering.html)
 - [How Cloudera Scaled K-Means](http://blog.cloudera.com/blog/2013/03/cloudera_ml_data_science_tools/)
-- [Clustering US Senators with K-Means](http://blog.dataquest.io/blog/plotting-senators/)
