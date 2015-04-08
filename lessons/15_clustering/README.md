@@ -18,7 +18,7 @@ Examples:
 
 # K-means Clustering
 Simplest approach to clustering:
-- We are given some data D, consisting of x<sup>(i)</sup>, each of which is a p-dimensional vectors.
+- We are given some data D, consisting of x<sup>(i)</sup>, each of which is a p-dimensional vector.
 - Our task is to group the data into K groups. We specify K beforehand.
 
 ## An Application
@@ -41,6 +41,7 @@ It's difficult to minimize this analytically, so we'll need an algorithm to help
 
 ### Action: Explain the math behind the procedure on the board.
 K-means do this iteratively by the following:
+
 1. Initialize the centers c<sub>1</sub>, ..., c<sub>k</sub> to be arbitrary, distinct points from the dataset.
 2. Choose the optimal assignment of points to clusters given by the centers above. Call this assignment of points to centers A. We do this by assigning each point to the center nearest to it.
 3. Now that the assignment is fixed, choose the optimal centers for that assignment A.
@@ -65,6 +66,8 @@ We build a hierarchy in a "bottom-up" fashion.
 Once we've constructed the tree of clusters from the bottom-up, we can cut it off at a certain height to get the number of clusters we desire. The lower we cut the tree, the more clusters we get.
 
 ## How to determine closeness of two clusters
+### Action: Draw the different types of linkage on the board.
+
 Given two clusters A and B, we want to compute the dissimilarity between them, called *linkage*. There a couple of ways we can do this:
 
 - Complete: compare all pairwise dissimilarities between points in A and B and take the maximum of these dissimilaritys to be the linkage.
@@ -73,8 +76,6 @@ Given two clusters A and B, we want to compute the dissimilarity between them, c
 - Centroid: Dissimilarity between the centroid of cluster A and the centroid of cluster B.
 
 Note that above, we will often use Euclidean distance as the measure of dissimilarity. An alternative is correlation-based distance, which is a measure of how correlated the features of two separate observations are.
-
-### Action: Draw the different types of linkage on the board.
 
 ## Example applications
 ### Hierarchical Clustering on Breast Cancer Data
