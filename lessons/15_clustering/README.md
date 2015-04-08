@@ -120,7 +120,7 @@ For hierarchical clustering,
 [Thoughts](http://www.stat.cmu.edu/~ryantibs/datamining/lectures/06-clus3.pdf) on how to choose the type of linkage and why determining the number of clusters is hard.
 
 # Homework: Clustering on Breast Cancer Data
-[Here's](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Original))
+[Here's](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Original)) the dataset.
 
 
 # Follow up Materials
