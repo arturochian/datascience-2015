@@ -5,6 +5,7 @@ Students will be able to:
 
 # Oustanding items for me to complete
 - explanation of gap statistic
+- better explanation of how to evaluate the performance of clustering
 - datasets for code examples
 - exercises for code examples
 - homework assignment
