@@ -14,6 +14,7 @@ Students will be able to:
 6. Let's try it out with a dataset
 7. How we evaluate the performance of a cluster
 8. Conclude
+9. If we have time, assess understanding of supervised algos.
 
 # Resources
 - [Lecture on K-Means Clustering](https://www.youtube.com/watch?v=aIybuNt9ps4&list=PL5-da3qGB5IBC-MneTc9oBZz0C6kNJ-f2)
@@ -110,11 +111,9 @@ Given two clusters A and B, we want to compute the dissimilarity between them, c
 
 Note that above, we will often use Euclidean distance as the measure of dissimilarity. An alternative is correlation-based distance, which is a measure of how correlated the features of two separate observations are.
 
-## Hierarchical Clustering on Wholesale Customers
+## Hierarchical Clustering on Character Set
 ### Action: Let's code.
-[Here's](https://archive.ics.uci.edu/ml/datasets/Wholesale+customers) the data.
-
-[Here's]() the iPython notebook. Exercises are embedded in the notebook.
+[Here's](http://nbviewer.ipython.org/gist/suneel0101/593123d12c762a6fc5c2) the iPython notebook. Exercises are embedded in the notebook.
 
 # Practical Advice for Hierarchical Clustering
 - Scaling of the data matters
@@ -125,7 +124,7 @@ For hierarchical clustering,
 
 [Thoughts](http://www.stat.cmu.edu/~ryantibs/datamining/lectures/06-clus3.pdf) on how to choose the type of linkage and why determining the number of clusters is hard.
 
-# Homework: Clustering on Breast Cancer Data
+# Lab 1: Clustering on Breast Cancer Data (To be submitted as homework)
 [Here's](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Original)) the dataset.
 
 
