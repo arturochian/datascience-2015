@@ -129,7 +129,7 @@ For hierarchical clustering,
 [Quora: Caveats of hierarchical clustering](http://www.quora.com/What-are-the-caveats-of-hierarchical-clustering)
 [Quora: When to use K-Means and when to use Hierarchical](http://www.quora.com/When-would-one-use-hierarchical-clustering-vs-Centroid-based-clustering-K-MEANS-vs-Density-based-clustering)
 
-# Lab 1: Clustering on Breast Cancer Data (To be submitted as homework)
+# Next time: Clustering on Breast Cancer Data
 [Here's](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Original)) the dataset.
 
 
