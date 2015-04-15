@@ -125,9 +125,9 @@ For hierarchical clustering,
 [Thoughts](http://www.stat.cmu.edu/~ryantibs/datamining/lectures/06-clus3.pdf) on how to choose the type of linkage and why determining the number of clusters is hard.
 
 # K-Means vs Hierachical
-[Quora: Pros and Cons of each](http://www.quora.com/What-are-the-pros-and-cons-of-kmeans-vs-hierarchical-clustering)
-[Quora: Caveats of hierarchical clustering](http://www.quora.com/What-are-the-caveats-of-hierarchical-clustering)
-[Quora: When to use K-Means and when to use Hierarchical](http://www.quora.com/When-would-one-use-hierarchical-clustering-vs-Centroid-based-clustering-K-MEANS-vs-Density-based-clustering)
+- [Quora: Pros and Cons of each](http://www.quora.com/What-are-the-pros-and-cons-of-kmeans-vs-hierarchical-clustering)
+- [Quora: Caveats of hierarchical clustering](http://www.quora.com/What-are-the-caveats-of-hierarchical-clustering)
+- [Quora: When to use K-Means and when to use Hierarchical](http://www.quora.com/When-would-one-use-hierarchical-clustering-vs-Centroid-based-clustering-K-MEANS-vs-Density-based-clustering)
 
 # Next time: Clustering on Breast Cancer Data
 [Here's](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Original)) the dataset.
