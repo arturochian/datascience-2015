@@ -4,7 +4,7 @@ Students will be able to:
 - explain and apply Principal Component Analysis (PCA) reduce dimensionality of the feature space
 
 # Programme
-0. Brief recap of K-Means and Hierarchical Clustering
+0. Recap of K-Means and Hierarchical Clustering
 1. Practicum #3: Clustering
 
 # Pre-Work
