@@ -5,6 +5,7 @@ Students will be able to:
 # Programme
 0. Recap of K-Means and Hierarchical Clustering
 1. Practicum #3: Clustering
+2. Share with the class our final project proposals
 
 # Pre-Work
 - Read through the iPython notebook for the Practicum
