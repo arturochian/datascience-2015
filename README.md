@@ -17,10 +17,10 @@ Apr 01        | Practicum 2: Tuning the Models
 Apr 06        | ANN wrap-up, Supervised learning Wrapup
 Apr 08        | Exploratory Analysis, SQL and NoSQL (Sonia)
 Apr 13        | Guest lectures
-Apr 15        | Clustering
-Apr 20        | Dimensionality Reduction
-Apr 22        | Hidden Markov Models
+Apr 15        | K-Means and Hierarchical Clustering
+Apr 20        | Practicum 3: Clustering
+Apr 22        | Dimensionality reduction through PCA
 Apr 27        | Spark, Hadoop and MapReduce
-Apr 29        | Machine Vision End-to-End
+Apr 29        | Built-in buffer for work on final projects
 May 04        | Final Presentations (Part 1)
 May 06        | Final Presentations (Part 2)
