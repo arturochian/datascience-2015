@@ -1,7 +1,6 @@
 # Objectives
 Students will be able to:
-- apply hierarchical and k-means clustering
-- explain and apply Principal Component Analysis (PCA) reduce dimensionality of the feature space
+- **confidently** apply hierarchical and k-means clustering
 
 # Programme
 0. Recap of K-Means and Hierarchical Clustering
