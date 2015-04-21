@@ -16,4 +16,6 @@ We will be clustering breast cancer data. The underlying dataset is linked to in
 
 [Here](http://nbviewer.ipython.org/gist/suneel0101/b9bcfcc3b75202112341) is the iPython notebook, with exercises embedded in it.
 
+[Notebook with Solutions](http://nbviewer.ipython.org/gist/suneel0101/39e2804783ff5a7c6e71)
+
 Full solutions will be posted after the practicum.
