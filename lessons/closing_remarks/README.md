@@ -41,7 +41,9 @@ To get to the next level of datascience, you should have a strong undergraduate 
 2. Statistics
 3. Linear Algebra - great [book](http://www.amazon.com/Linear-Algebra-Its-Applications-Edition/dp/0030105676) by Gilbert Strang. He has some online lecture videos as well.
 
-Once you feel strong with the math, move on to [The Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/) - this is THE BIBLE of datascience. You can learn from it or just use it as reference.
+[Khan Academy](http://khanacademy.com) has great lecture videos for these topics as well.
+
+Once you feel good with the math, move on to [The Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/) - this is THE BIBLE of datascience. You can learn from it or just use it as reference.
 
 # Practice a ton
 Here are some tips on deliberate practice:
