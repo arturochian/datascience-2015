@@ -1,4 +1,4 @@
-# Summare
+# Summary
 - It's been a great journey!
 - We've learned a ton of different techniques and gained a pretty broad exposure to different areas of datascience.
 
